@@ -2,5 +2,12 @@ reactDom = require('react-dom');
 TodoList = require('./TodoList');
 React = require('react');
 CreateTodoForm = require('./CreateTodoForm');
+TodoCount = require('./TodoCount');
 
-reactDom.render(<div><CreateTodoForm/><TodoList/></div>, document.querySelector('#demo'));
+reactDom.render((
+        <div>
+            <CreateTodoForm/>
+            <TodoList/>
+            <TodoCount />
+        </div>),
+    document.querySelector('#demo'));

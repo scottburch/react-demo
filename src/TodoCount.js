@@ -1,5 +1,4 @@
 var Component = require('./Component');
-var RS = require('./RS');
 var TodoService = require('./TodoService');
 
 module.exports = class TodoCount extends Component {
@@ -8,7 +7,7 @@ module.exports = class TodoCount extends Component {
     }
 
     componentDidMount() {
-        RS.autorun(() => this.setState({todos: TodoService.getTodos()}));
+        this.autorun(() => this.setState({todos: TodoService.getTodos()}));
     }
 
     render() {

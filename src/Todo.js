@@ -6,8 +6,8 @@ module.exports = class Todo extends Component {
         RS.set('todos', RS.get('todos').filter(todo => todo.id !== this.props.id));
     }
 
-    completeTodo() {
-        RS.set('todos', RS.get('todos').map(todo => todo.id === this.props.id ? _.extend(todo, {complete:true}) : todo));
+    toggleComplete() {
+        RS.set('todos', RS.get('todos').map(todo => todo.id === this.props.id ? _.extend(todo, {complete:!todo.complete}) : todo));
     }
 
     render() {
@@ -15,8 +15,8 @@ module.exports = class Todo extends Component {
             <div style={{borderBottom: '1px solid #ccc', height: 30, textDecoration: this.props.complete ? 'line-through' : ''}}>
                 <span>{this.props.id}</span> {this.props.description}
                 <div style={{float: 'right'}}>
-                    {this.props.complete || <button onClick={this.completeTodo.bind(this)}>Complete</button>}
                     <button onClick={this.deleteTodo.bind(this)}>Delete</button>
+                    <input type="checkbox" checked={this.props.complete} onChange={this.toggleComplete.bind(this)} />
                 </div>
             </div>
         )

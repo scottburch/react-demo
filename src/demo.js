@@ -1,9 +1,9 @@
-reactDom = require('react-dom');
-TodoList = require('./TodoList');
-React = require('react');
-CreateTodoForm = require('./CreateTodoForm');
-TodoCount = require('./TodoCount');
-State = require('./State');
+var reactDom = require('react-dom');
+var TodoList = require('./TodoList');
+var React = require('react');
+var CreateTodoForm = require('./CreateTodoForm');
+var TodoCount = require('./TodoCount');
+var State = require('./State');
 
 reactDom.render((
         <div>

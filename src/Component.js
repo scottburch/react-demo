@@ -1,6 +1,7 @@
-ReactComponent = require('react').Component;
-_ = require('lodash');
-RS = require('./RS');
+var ReactComponent = require('react').Component;
+var _ = require('lodash');
+var RS = require('./RS');
+global.React = require('react');
 
 module.exports = class Component extends ReactComponent {
     constructor() {

@@ -1,6 +1,5 @@
-Component = require('./Component');
-RS = require('./RS');
-
+var Component = require('./Component');
+var RS = require('./RS');
 
 var nextId = new Date().getTime();
 

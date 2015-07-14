@@ -1,4 +1,5 @@
-Component = require('./Component');
+var Component = require('./Component');
+var RS = require('./RS');
 
 module.exports = class Todo extends Component {
     deleteTodo() {

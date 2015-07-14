@@ -1,4 +1,4 @@
-Component = require('./Component')
+var Component = require('./Component')
 
 module.exports = class State extends Component {
     getState() {

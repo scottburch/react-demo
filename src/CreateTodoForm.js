@@ -1,6 +1,8 @@
 Component = require('react').Component;
+RS = require('./RS');
 
-var nextId = 0;
+
+var nextId = new Date().getTime();
 
 module.exports = class CreateTodoForm extends Component {
 

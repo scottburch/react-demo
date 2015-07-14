@@ -14,7 +14,7 @@ module.exports = class Todo extends Component {
             <div style={{borderBottom: '1px solid #ccc', height: 30, textDecoration: this.props.complete ? 'line-through' : ''}}>
                 <span>{this.props.id}</span> {this.props.description}
                 <div style={{float: 'right'}}>
-                    <button onClick={this.completeTodo.bind(this)}>Complete</button>
+                    {this.props.complete || <button onClick={this.completeTodo.bind(this)}>Complete</button>}
                     <button onClick={this.deleteTodo.bind(this)}>Delete</button>
                 </div>
             </div>

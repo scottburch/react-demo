@@ -1,13 +1,13 @@
 var Component = require('./Component');
-var RS = require('./RS');
+var TodoService = require('./TodoService');
 
 module.exports = class Todo extends Component {
     deleteTodo() {
-        RS.set('todos', RS.get('todos').filter(todo => todo.id !== this.props.id));
+        this.props.id && TodoService.deleteTodo(this.props.id);
     }
 
     toggleComplete() {
-        RS.set('todos', RS.get('todos').map(todo => todo.id === this.props.id ? _.extend(todo, {complete:!todo.complete}) : todo));
+        TodoService.toggleTodoComplete(this.props.id);
     }
 
     render() {
@@ -15,7 +15,7 @@ module.exports = class Todo extends Component {
             <div style={{borderBottom: '1px solid #ccc', height: 30, textDecoration: this.props.complete ? 'line-through' : '', color: this.props.id ? 'black' : '#ccc'}}>
                 <span> {this.props.description}</span>
                 <div style={{float: 'right'}}>
-                    <button onClick={this.deleteTodo.bind(this)}>Delete</button>
+                    <button disabled={!this.props.id} onClick={this.deleteTodo.bind(this)}>Delete</button>
                     <input type="checkbox" checked={this.props.complete} onChange={this.toggleComplete.bind(this)} />
                 </div>
             </div>

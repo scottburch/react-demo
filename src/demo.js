@@ -3,6 +3,7 @@ TodoList = require('./TodoList');
 React = require('react');
 CreateTodoForm = require('./CreateTodoForm');
 TodoCount = require('./TodoCount');
+State = require('./State');
 
 reactDom.render((
         <div>
@@ -10,5 +11,7 @@ reactDom.render((
             <hr/>
             <TodoList/>
             <TodoCount />
+            <hr/>
+            <State />
         </div>),
     document.querySelector('#demo'));

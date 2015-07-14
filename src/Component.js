@@ -9,6 +9,18 @@ module.exports = class Component extends ReactComponent {
         wrapComponentWillUnmount.call(this);
     }
 
+    registerStoreKey(key, defaultValue) {
+        var value = RS.get(key);
+        value || RS.set(key, defaultValue);
+        RS.autorun(() => {
+            if(this.mounted) {
+                var newState = {};
+                newState[key] = RS.get(key);
+                this.setState(newState);
+            }
+        });
+    }
+
 };
 
 function wrapComponentWillUnmount() {
@@ -20,24 +32,9 @@ function wrapComponentWillUnmount() {
 }
 
 function wrapComponentWillMount() {
-    this.mounted = true;
     var origComponentWillMount = this.componentWillMount || _.noop;
     this.componentWillMount = () => {
+        this.mounted = true;
         origComponentWillMount.call(this);
-        this.registerStoreKeys && doRegisterStoreKeys.call(this);
-    }
-
-    function doRegisterStoreKeys() {
-        _.each(this.registerStoreKeys(), (defaultValue, key) => {
-            var value = RS.get(key);
-            value || RS.set(key, defaultValue);
-            RS.autorun(() => {
-                if(this.mounted) {
-                    var newState = {};
-                    newState[key] = RS.get(key);
-                    this.setState(newState);
-                }
-            });
-        });
     }
 }

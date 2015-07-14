@@ -6,8 +6,8 @@ var RS = require('./RS');
 
 module.exports = class TodoList extends Component {
 
-    registerStoreKeys() {
-        return {todos: []};
+    componentWillMount() {
+        this.registerStoreKey('todos', []);
     }
 
     render() {

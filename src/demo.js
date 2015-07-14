@@ -7,6 +7,7 @@ TodoCount = require('./TodoCount');
 reactDom.render((
         <div>
             <CreateTodoForm/>
+            <hr/>
             <TodoList/>
             <TodoCount />
         </div>),

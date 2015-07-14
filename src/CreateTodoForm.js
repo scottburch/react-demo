@@ -1,4 +1,4 @@
-Component = require('react').Component;
+Component = require('./Component');
 RS = require('./RS');
 
 
@@ -15,7 +15,7 @@ module.exports = class CreateTodoForm extends Component {
     render() {
         return (
             <div>
-                <div>Todo description: <input defaultValue="" ref="description" /></div>
+                <div>Todo description: <input ref="description" /></div>
                 <div><button onClick={this.createTodo.bind(this)}>Create todo</button></div>
             </div>
         )

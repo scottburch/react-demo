@@ -1,4 +1,4 @@
-Component = require('react').Component
+Component = require('./Component')
 
 module.exports = class State extends Component {
     getState() {

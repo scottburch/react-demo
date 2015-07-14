@@ -1,4 +1,4 @@
-Component = require('react').Component;
+Component = require('./Component');
 Todo = require('./Todo');
 CreateTodoForm = require('./CreateTodoForm');
 RS = require('./RS');
@@ -7,10 +7,11 @@ module.exports = class TodoList extends Component {
     constructor() {
         this.state = {todos:  []};
         RS.set('todos', this.state.todos);
+        super();
     }
 
-    componentDidMount() {
-        RS.autorun(() => this.setState({todos: RS.get('todos')}));
+    registerStoreKeys() {
+        return ['todos'];
     }
 
     render() {

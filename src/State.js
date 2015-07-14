@@ -1,4 +1,5 @@
 var Component = require('./Component')
+var RS = require('./RS');
 
 module.exports = class State extends Component {
     getState() {

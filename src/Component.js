@@ -9,15 +9,18 @@ module.exports = class Component extends ReactComponent {
         wrapComponentWillUnmount.call(this);
     }
 
+    autorun(fn) {
+        RS.autorun(() => this.mounted !== false && fn());
+    }
+
     registerStoreKey(key, defaultValue) {
         var value = RS.get(key);
         value || RS.set(key, defaultValue);
-        RS.autorun(() => {
-            if(this.mounted) {
+
+        this.autorun(() => {
                 var newState = {};
                 newState[key] = RS.get(key);
                 this.setState(newState);
-            }
         });
     }
 

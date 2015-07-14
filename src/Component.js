@@ -1,5 +1,6 @@
 ReactComponent = require('react').Component;
 _ = require('lodash');
+RS = require('./RS');
 
 module.exports = class Component extends ReactComponent {
     constructor() {
@@ -26,7 +27,9 @@ function wrapComponentWillMount() {
     }
 
     function doRegisterStoreKeys() {
-        this.registerStoreKeys().map(key => {
+        _.each(this.registerStoreKeys(), (defaultValue, key) => {
+            var value = RS.get(key);
+            value || RS.set(key, defaultValue);
             RS.autorun(() => {
                 if(this.mounted) {
                     var newState = {};
@@ -34,6 +37,6 @@ function wrapComponentWillMount() {
                     this.setState(newState);
                 }
             });
-        })
+        });
     }
 }

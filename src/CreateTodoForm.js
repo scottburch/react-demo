@@ -1,4 +1,6 @@
 var Component = require('./Component');
+var TodoService = require('./TodoService');
+
 var RS = require('./RS');
 
 var nextId = new Date().getTime();
@@ -7,7 +9,7 @@ module.exports = class CreateTodoForm extends Component {
 
     createTodo() {
         var description = this.refs.description.value;
-        description && RS.set('todos', RS.get('todos').concat({id: nextId++, description: description}));
+        TodoService.addTodo({description: description});
         this.refs.description.value = "";
     }
 

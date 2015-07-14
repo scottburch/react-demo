@@ -2,6 +2,8 @@ var Component = require('./Component');
 var Todo = require('./Todo');
 var TodoService = require('./TodoService');
 
+var nextKey = 0;
+
 module.exports = class TodoList extends Component {
 
 
@@ -13,7 +15,7 @@ module.exports = class TodoList extends Component {
     render() {
         return (
             <div>
-                {this.state.todos.map(todo => <Todo key={todo.id} {...todo}/>)}
+                {this.state.todos.map(todo => <Todo key={nextKey++} {...todo}/>)}
             </div>
         )
     }

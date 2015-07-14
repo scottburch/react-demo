@@ -1,6 +1,7 @@
 var RS = require('./RS');
 
 var todosLoaded = false;
+var nextId = new Date().getTime();
 
 module.exports =  {
     getTodos() {
@@ -11,5 +12,11 @@ module.exports =  {
 
     getIncompleteTodos() {
         return RS.get('todos').filter(todo => todo.complete !== true);
+    },
+
+    addTodo(data) {
+        var tempId = nextId++;
+        RS.set('todos', RS.get('todos').concat(_.extend(data, {tempId: tempId})));
+        setTimeout(() => RS.set('todos', RS.get('todos').map(todo => todo.tempId === tempId ? _.extend(todo, {id: todo.tempId}) : todo)), 2000);
     }
 };

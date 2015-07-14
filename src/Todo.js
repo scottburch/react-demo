@@ -12,8 +12,8 @@ module.exports = class Todo extends Component {
 
     render() {
         return (
-            <div style={{borderBottom: '1px solid #ccc', height: 30, textDecoration: this.props.complete ? 'line-through' : ''}}>
-                <span>{this.props.id}</span> {this.props.description}
+            <div style={{borderBottom: '1px solid #ccc', height: 30, textDecoration: this.props.complete ? 'line-through' : '', color: this.props.id ? 'black' : '#ccc'}}>
+                <span> {this.props.description}</span>
                 <div style={{float: 'right'}}>
                     <button onClick={this.deleteTodo.bind(this)}>Delete</button>
                     <input type="checkbox" checked={this.props.complete} onChange={this.toggleComplete.bind(this)} />

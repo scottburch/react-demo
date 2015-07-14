@@ -9,7 +9,7 @@ module.exports = class CreateTodoForm extends Component {
 
     createTodo() {
         var description = this.refs.description.value;
-        TodoService.addTodo({description: description});
+        description && TodoService.addTodo({description: description});
         this.refs.description.value = "";
     }
 

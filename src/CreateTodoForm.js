@@ -3,9 +3,6 @@ Component = require('react').Component;
 var nextId = 0;
 
 module.exports = class CreateTodoForm extends Component {
-    constructor() {
-        this.state = {nextId: 0};
-    }
 
     createTodo() {
         var description = this.refs.description.value;

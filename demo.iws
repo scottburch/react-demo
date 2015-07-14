@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edbd8b9b-54d9-46cd-a4c3-e02d049f2f5b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Component.js" afterPath="$PROJECT_DIR$/src/Component.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TodoList.js" afterPath="$PROJECT_DIR$/src/TodoList.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo.iws" afterPath="$PROJECT_DIR$/demo.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo.js" afterPath="$PROJECT_DIR$/demo.js" />
@@ -63,8 +62,8 @@
       <file leaf-file-name="TodoList.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TodoList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17964073">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.04491018">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -142,8 +141,8 @@
         <option value="$PROJECT_DIR$/src/CreateTodoForm.js" />
         <option value="$PROJECT_DIR$/src/TodoCount.js" />
         <option value="$PROJECT_DIR$/src/Todo.js" />
-        <option value="$PROJECT_DIR$/src/TodoList.js" />
         <option value="$PROJECT_DIR$/src/Component.js" />
+        <option value="$PROJECT_DIR$/src/TodoList.js" />
       </list>
     </option>
   </component>
@@ -770,7 +769,7 @@
       <option name="number" value="Default" />
       <updated>1436833633731</updated>
       <workItem from="1436833639118" duration="13508000" />
-      <workItem from="1436893787236" duration="5395000" />
+      <workItem from="1436893787236" duration="5834000" />
     </task>
     <task id="LOCAL-00001" summary="clear input field for new todo">
       <created>1436856351744</created>
@@ -820,11 +819,17 @@
       <option name="project" value="LOCAL" />
       <updated>1436898104984</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="changed where store keys are registered">
+      <created>1436899455873</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1436899455874</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18903000" />
+    <option name="totallyTimeSpent" value="19342000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="94" y="27" width="1470" height="872" extended-state="0" />
@@ -902,7 +907,8 @@
     <MESSAGE value="adding register store key" />
     <MESSAGE value="registerStoreKeys added" />
     <MESSAGE value="removed global variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed global variables" />
+    <MESSAGE value="changed where store keys are registered" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed where store keys are registered" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1061,8 +1067,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TodoList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17964073">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.04491018">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>

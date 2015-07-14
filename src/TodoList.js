@@ -1,7 +1,5 @@
 var Component = require('./Component');
 var Todo = require('./Todo');
-var CreateTodoForm = require('./CreateTodoForm');
-var RS = require('./RS');
 
 
 module.exports = class TodoList extends Component {

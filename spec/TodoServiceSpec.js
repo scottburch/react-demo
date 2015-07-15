@@ -1,6 +1,7 @@
+require('demo.js');
+
 describe('TodoService', function() {
 
-//    var TodoService = require('../src/TodoService');
 
     beforeEach(function() {
 //        global.RS = require('reactive-store')();

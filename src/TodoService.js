@@ -5,7 +5,7 @@ var nextId = new Date().getTime();
 
 module.exports =  {
     getTodos() {
-        todosLoaded || RS.set('todos', [{id:1, description: 'Do something'}, {id:2, description: 'Do something else'}]);
+        todosLoaded || Object.keys(RS.dump()).length > 0  || RS.set('todos', [{id:1, description: 'Do something'}, {id:2, description: 'Do something else'}]);
         todosLoaded = true;
         return RS.get('todos');
     },

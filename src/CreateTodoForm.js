@@ -1,5 +1,6 @@
 var Component = require('./Component');
 var TodoService = require('./TodoService');
+var Form = require('./form/Form');
 
 var RS = require('./RS');
 
@@ -17,7 +18,7 @@ module.exports = class CreateTodoForm extends Component {
         return (
             <div>
                 <div>Todo description: <input ref="description" /></div>
-                <div><button onClick={this.createTodo.bind(this)}>Create todo</button></div>
+                <div><Form.Button onClick={this.createTodo.bind(this)}>Create todo</Form.Button></div>
             </div>
         )
     }

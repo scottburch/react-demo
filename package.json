@@ -13,7 +13,11 @@
     "rewireify": "~0.2.1",
     "web-storage": "~1.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mock-browser": "~0.90.33",
+    "grunt-contrib-jasmine": "~0.9.0",
+    "source-map-support": "~0.3.2"
+  },
   "scripts": {
     "test": "./test.sh"
   },

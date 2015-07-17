@@ -6,6 +6,6 @@ for f in $FILES
 do
   FILE=${f//spec\//}
   echo "Processing $FILE file..."
-  browserify -t [reactify --es6 --target es6] -t rewireify spec/$FILE -o build/$FILE
+  browserify  -t [reactify --es6 --target es5]  spec/$FILE -o build/$FILE --debug
 done
-jasmine
+#jasmine

@@ -18,7 +18,7 @@ module.exports = class CreateTodoForm extends Component {
         return (
             <div>
                 <div>Todo description: <input ref="description" /></div>
-                <div><Form.Button onClick={this.createTodo.bind(this)}>Create todo</Form.Button></div>
+                <div><Form.SubmitButton onClick={this.createTodo.bind(this)}>Create todo</Form.SubmitButton></div>
             </div>
         )
     }

@@ -1,4 +1,4 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
 
 
     grunt.initConfig({
@@ -6,7 +6,7 @@ module.exports = function(grunt) {
         jasmine: {
             headless: {
                 options: {
-                    outfile: 'test/specRunner.html',
+                    outfile: 'specRunner.html',
                     specs: 'test/build/**/*Spec.js',
 //                    helpers: ['test/helpers/*Helper.js'],
                     vendor: [],

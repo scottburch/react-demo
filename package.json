@@ -16,10 +16,12 @@
   "devDependencies": {
     "mock-browser": "~0.90.33",
     "grunt-contrib-jasmine": "~0.9.0",
-    "source-map-support": "~0.3.2"
+    "source-map-support": "~0.3.2",
+    "grunt-browserify": "~3.8.0"
   },
   "scripts": {
-    "test": "./test.sh"
+    "compile-tests": "cd test;./test.sh;cd .."
+
   },
   "repository": {
     "type": "git",

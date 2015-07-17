@@ -11,11 +11,16 @@ module.exports = class TodoCount extends Component {
     }
 
     render() {
-        return (
-            <div>
-                <div>Total Todos: {this.state.todos.length}</div>
-                <div>Incomplete Todos: {this.state.todos.filter(todo => todo.complete !== true).length}</div>
-            </div>
-        )
+        var todos = this.state.todos;
+        return todos ? showCounts() : <div></div>;
+
+        function showCounts() {
+            return (
+                <div>
+                    <div>Total Todos: {todos.length}</div>
+                    <div>Incomplete Todos: {todos.filter(todo => todo.complete !== true).length}</div>
+                </div>
+            )
+        }
     }
 };

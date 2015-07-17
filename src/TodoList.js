@@ -8,14 +8,15 @@ module.exports = class TodoList extends Component {
 
 
     componentWillMount() {
-        this.registerStoreKey('todos', []);
+        this.registerStoreKey('todos');
         TodoService.getTodos();
     }
 
     render() {
+        var todos = this.state.todos;
         return (
             <div>
-                {this.state.todos.map(todo => <Todo key={nextKey++} {...todo}/>)}
+                {todos ? todos.map(todo => <Todo key={nextKey++} {...todo}/>) : <h1>LOADING...</h1>}
             </div>
         )
     }

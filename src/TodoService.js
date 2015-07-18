@@ -2,10 +2,11 @@ var RS = require('./RS');
 
 var todosLoaded = false;
 var nextId = new Date().getTime();
+var TODO_LOAD_DELAY = 2000;
 
 module.exports =  {
     getTodos() {
-        todosLoaded || setTimeout(() => (RS.get('todos') && RS.get('todos').length > 0) || RS.set('todos', [{id:1, description: 'Do something'}, {id:2, description: 'Do something else'}]),2000);
+        todosLoaded || setTimeout(() => (RS.get('todos') && RS.get('todos').length > 0) || RS.set('todos', [{id:1, description: 'Do something'}, {id:2, description: 'Do something else'}]), TODO_LOAD_DELAY);
         todosLoaded = true;
         return RS.get('todos');
     },

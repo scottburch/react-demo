@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edbd8b9b-54d9-46cd-a4c3-e02d049f2f5b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CreateTodoForm.js" afterPath="$PROJECT_DIR$/src/CreateTodoForm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TodoCount.js" afterPath="$PROJECT_DIR$/src/TodoCount.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/spec/TodoListSpec.js" afterPath="$PROJECT_DIR$/test/spec/TodoListSpec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TodoService.js" afterPath="$PROJECT_DIR$/src/TodoService.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/spec/TodoServiceSpec.js" afterPath="$PROJECT_DIR$/test/spec/TodoServiceSpec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo.ipr" afterPath="$PROJECT_DIR$/demo.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo.iws" afterPath="$PROJECT_DIR$/demo.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo.js" afterPath="$PROJECT_DIR$/demo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test.sh" afterPath="$PROJECT_DIR$/test/test.sh" />
     </list>
     <ignored path="demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,11 +73,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="TodoService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TodoService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="189" selection-start-line="8" selection-start-column="189" selection-end-line="8" selection-end-column="189" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TodoServiceSpec.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/spec/TodoServiceSpec.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TodoSpec.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/spec/TodoSpec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -96,16 +113,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SubmitButton.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/form/SubmitButton.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CreateTodoForm.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CreateTodoForm.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -116,27 +123,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Form.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/form/Form.js">
+      <file leaf-file-name="test.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-              <folding>
-                <marker date="1437127990866" expanded="true" signature="17:97" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Button.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/form/Button.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-              <folding>
-                <marker date="1437128007974" expanded="true" signature="90:208" placeholder="{...}" />
-                <marker date="1437128007974" expanded="true" signature="189:208" placeholder="&lt;xml/&gt;" />
-              </folding>
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -163,12 +155,10 @@
         <option value="$PROJECT_DIR$/test.sh" />
         <option value="$PROJECT_DIR$/src/Todo.js" />
         <option value="$PROJECT_DIR$/test/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/test/test.sh" />
         <option value="$PROJECT_DIR$/test/ReactHelper.js" />
         <option value="$PROJECT_DIR$/test/ReactHelpers.js" />
         <option value="$PROJECT_DIR$/test/spec/TodoSpec.js" />
         <option value="$PROJECT_DIR$/src/RS.js" />
-        <option value="$PROJECT_DIR$/src/TodoService.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -179,8 +169,10 @@
         <option value="$PROJECT_DIR$/src/CreateTodoForm.js" />
         <option value="$PROJECT_DIR$/src/demo.js" />
         <option value="$PROJECT_DIR$/src/TodoCount.js" />
-        <option value="$PROJECT_DIR$/test/spec/TodoServiceSpec.js" />
         <option value="$PROJECT_DIR$/test/spec/TodoListSpec.js" />
+        <option value="$PROJECT_DIR$/test/test.sh" />
+        <option value="$PROJECT_DIR$/src/TodoService.js" />
+        <option value="$PROJECT_DIR$/test/spec/TodoServiceSpec.js" />
       </list>
     </option>
   </component>
@@ -261,6 +253,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -830,7 +840,7 @@
       <workItem from="1436893787236" duration="46310000" />
       <workItem from="1437089408491" duration="8527000" />
       <workItem from="1437105679527" duration="639000" />
-      <workItem from="1437120939269" duration="12449000" />
+      <workItem from="1437120939269" duration="16154000" />
     </task>
     <task id="LOCAL-00001" summary="clear input field for new todo">
       <created>1436856351744</created>
@@ -964,11 +974,17 @@
       <option name="project" value="LOCAL" />
       <updated>1437157814902</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="small changes">
+      <created>1437180901819</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1437180901819</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81433000" />
+    <option name="totallyTimeSpent" value="85138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="41" width="1283" height="831" extended-state="0" />
@@ -1057,11 +1073,12 @@
     <MESSAGE value="moving stuff around" />
     <MESSAGE value="added submit button" />
     <MESSAGE value="small refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="small refactor" />
+    <MESSAGE value="small changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="small changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1278,14 +1295,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1297,14 +1306,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TodoService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1339,14 +1340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/spec/TodoSpec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/form/SubmitButton.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1360,7 +1353,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
           <folding>
-            <marker date="1437127990866" expanded="true" signature="17:97" placeholder="{...}" />
+            <marker date="1437127990866" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1370,8 +1363,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
           <folding>
-            <marker date="1437128007974" expanded="true" signature="90:208" placeholder="{...}" />
-            <marker date="1437128007974" expanded="true" signature="189:208" placeholder="&lt;xml/&gt;" />
+            <marker date="1437128007974" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1437128007974" expanded="true" signature="-1:-1" placeholder="&lt;xml/&gt;" />
           </folding>
         </state>
       </provider>
@@ -1442,10 +1435,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TodoService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="189" selection-start-line="8" selection-start-column="189" selection-end-line="8" selection-end-column="189" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/spec/TodoServiceSpec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/spec/TodoSpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
           <folding />
         </state>
       </provider>

@@ -2,10 +2,6 @@ var Component = require('./Component');
 var TodoService = require('./TodoService');
 var Form = require('./form/Form');
 
-var RS = require('./RS');
-
-var nextId = new Date().getTime();
-
 module.exports = class CreateTodoForm extends Component {
 
     createTodo() {

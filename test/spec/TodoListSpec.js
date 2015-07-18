@@ -6,9 +6,9 @@ $j = require('jquery');
 
 describe('TodoList Tests', () => {
 
-    it('should show a list of todos', function() {
+    it('should show LOADING... if there are no todos', function() {
         var node = $j(ReactHelpers.render(<TodoList />));
-        expect(node.children().size()).toBe(0);
+        expect(node.find(':contains(LOADING)').size()).toBeGreaterThan(0);
 
         RS.set('todos', [{id: 2, description: 'do that'}]);
         expect(node.children().size()).toBe(1);

@@ -6,9 +6,9 @@ describe('TodoService', function() {
     beforeEach(function() {
     });
 
-    it('should add dummy todos when first loaded', function(done) {
+    it('should add dummy todos when first loaded', (done) => {
         TodoService.getTodos();
-        setTimeout(function() {
+        setTimeout(() => {
             expect(RS.get('todos').length).toBeGreaterThan(0);
             done();
         }, 2500);

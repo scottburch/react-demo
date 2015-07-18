@@ -2,12 +2,9 @@ var Component = require('./Component');
 var TodoService = require('./TodoService');
 
 module.exports = class TodoCount extends Component {
-    constructor() {
-        this.state = {todos: []};
-    }
 
-    componentDidMount() {
-        this.autorun(() => this.setState({todos: TodoService.getTodos()}));
+    componentWillMount() {
+        this.registerStoreKey('todos');
     }
 
     render() {

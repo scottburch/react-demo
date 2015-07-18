@@ -23,7 +23,7 @@ module.exports = function (grunt) {
                 options: {
                     outfile: 'test/specRunner.html',
                     specs: 'test/build/**/*Spec.js',
-                    helpers: ['test/helpers/*Helper.js'],
+//                    helpers: ['test/helpers/*Helper.js'],
                 }
             }
         },

@@ -19,8 +19,9 @@
     "rewireify": "~0.2.1"
   },
   "scripts": {
-    "compile": "watchify -t [reactify --es6 --target es5] src/demo.js -o demo.js --debug",
-    "compile-tests": "cd test;./test.sh;cd .."
+    "compile": "watchify -t [reactify --es6 --target es5] src/demo.js -o demo.js --debug -v",
+    "compile-tests": "cd test;./test.sh;cd ..",
+    "test-headless": "grunt headless"
 
   },
   "repository": {

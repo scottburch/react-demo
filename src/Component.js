@@ -23,7 +23,6 @@ module.exports = class Component extends ReactComponent {
                 this.setState(newState);
         });
     }
-
 };
 
 function wrapComponentWillUnmount() {

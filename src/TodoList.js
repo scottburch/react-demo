@@ -16,6 +16,7 @@ module.exports = class TodoList extends Component {
         var todos = this.state.todos;
         return (
             <div>
+                <h2>{text.todoListHeader}</h2>
                 {todos ? todos.map(todo => <Todo key={nextKey++} {...todo}/>) : <h1>LOADING...</h1>}
             </div>
         )

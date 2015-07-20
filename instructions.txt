@@ -1,0 +1,41 @@
+I have been working on these POCs, but I realized that what might be more helpful is to demonstrate the end goal first.  Similar to the way a building architect does not start on the building before building a complete model and getting approval.
+
+I started writing a long boring document and then decided that it would be better to send a series of videos where I can demonstrate the concepts and provide comentary.
+
+The videos are rough, because they really are a rough draft proposal. I am hoping to get any feedback that you have early so that I can put things together in the best way possible.
+
+The videos are in numbered order and cover various subjects from basic components to unit/integration testing.  I show code examples in several of them in an attempt to show the features and benifits of coding in this style.
+
+Get the code
+---------------
+git clone https://github.com/scottburch/react-demo.git
+cd react-demo
+
+Load the npm modules
+-----------------------
+npm install
+
+
+Run the demo app
+----------------
+npm start	(starts a local web browser on port 8000)
+point your browser to http://localhost:8000/demo.html
+
+
+To make code changes start the compiler 
+---------------------------------------
+npm run-script compile
+
+(This will start a compiler and file watcher which will watch for changes and recompile)
+
+
+To run tests in a web browser
+------------------------------
+npm run-scripts compile-tests
+npm start (if the web browser is not already running)
+
+
+
+
+
+

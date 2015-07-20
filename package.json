@@ -10,7 +10,7 @@
     "reactify": "~1.1.1",
     "reactive-store": "~0.1.1",
     "web-storage": "~1.0.0",
-    "jquery": "~1.0.0"
+    "jquery": "~2.1.4"
   },
   "devDependencies": {
     "mock-browser": "~0.90.33",

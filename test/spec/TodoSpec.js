@@ -14,6 +14,6 @@ describe('Todo Tests', () =>  {
 
     it('should mark the Todo completed if passed complete as a property',() => {
         var node = ReactHelpers.render(<Todo description="my todo" complete={true}/>);
-        expect($j(node).css('text-decoration')).toBe('line-through');
+        expect($j('div', node).css('text-decoration')).toBe('line-through');
     });
 });

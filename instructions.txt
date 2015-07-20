@@ -1,13 +1,17 @@
 I have been working on these POCs, but I realized that what might be more helpful is to demonstrate the end goal first.  Similar to the way a building architect does not start on the building before building a complete model and getting approval.
 
-I started writing a long boring document and then decided that it would be better to send a series of videos where I can demonstrate the concepts and provide comentary.
+This will also provide a better roadmap for the work I am doing for the POC.
 
-The videos are rough, because they really are a rough draft proposal. I am hoping to get any feedback that you have early so that I can put things together in the best way possible.
+I started writing a long boring document and then decided that it would be better to send a series of videos where I can demonstrate the concepts and provide reasoning for the choices.
+
+The videos are rough, because they really are a rough draft proposal. I am hoping to get any feedback that you have early so that I can put the code together in the best way possible.
 
 The videos are in numbered order and cover various subjects from basic components to unit/integration testing.  I show code examples in several of them in an attempt to show the features and benifits of coding in this style.
 
 
-The videos can be found in react-demo/videos. 
+The videos can be found in react-demo/videos. In the videos I made the assumption that the viewer may not be familiar with ES6, JSX or React, so forgive me if I explain some simple stuff.
+
+To run this code you do need node/npm, but I noticed npm in the code base so I am assuming you are already using it somewhere.
 
 
 Get the code

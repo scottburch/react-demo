@@ -6,6 +6,10 @@ The videos are rough, because they really are a rough draft proposal. I am hopin
 
 The videos are in numbered order and cover various subjects from basic components to unit/integration testing.  I show code examples in several of them in an attempt to show the features and benifits of coding in this style.
 
+
+The videos can be found in react-demo/videos. 
+
+
 Get the code
 ---------------
 git clone https://github.com/scottburch/react-demo.git
@@ -31,9 +35,14 @@ npm run-script compile
 
 To run tests in a web browser
 ------------------------------
-npm run-scripts compile-tests
+grunt headed (to create the test/specRunner.html file)
+npm run-script compile-tests
 npm start (if the web browser is not already running)
 
+To run headless tests
+------------------------------
+npm run-script compile-tests   (if tests are not already compiled)
+npm run-script test-headless
 
 
 

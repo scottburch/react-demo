@@ -17,13 +17,14 @@
     "grunt-contrib-jasmine": "~0.9.0",
     "source-map-support": "~0.3.2",
     "grunt-browserify": "~3.8.0",
-    "rewireify": "~0.2.1"
+    "rewireify": "~0.2.1",
+    "local-web-server": "~0.5.20"
   },
   "scripts": {
     "compile": "watchify -t [reactify --es6 --target es5] src/demo.js -o demo.js --debug -v",
     "compile-tests": "cd test;./test.sh;cd ..",
-    "test-headless": "grunt headless"
-
+    "test-headless": "grunt headless",
+    "start": "ws"
   },
   "repository": {
     "type": "git",

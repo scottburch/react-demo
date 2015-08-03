@@ -5,8 +5,7 @@ ReactHelpers = require('../ReactHelpers');
 RS = require('../../src/RS');
 $j = require('jquery');
 
-text = {
-}
+//global.text = {};
 
 describe('TodoList Tests', () => {
 

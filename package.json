@@ -2,6 +2,7 @@
   "name": "demo",
   "version": "0.0.0",
   "description": "Demo",
+  "private": true,
   "main": "demo.js",
   "dependencies": {
     "lodash": "~3.10.0",
@@ -18,10 +19,11 @@
     "source-map-support": "~0.3.2",
     "grunt-browserify": "~3.8.0",
     "rewireify": "~0.2.1",
-    "local-web-server": "~0.5.20"
+    "local-web-server": "~0.5.20",
+    "strictify": "~0.2.0"
   },
   "scripts": {
-    "compile": "watchify -t [reactify --es6 --target es5] src/demo.js -o demo.js --debug -v",
+    "compile": "watchify -t [reactify --es6 --target es5] -t strictify src/demo.js -o demo.js --debug -v",
     "compile-tests": "cd test;./test.sh;cd ..",
     "test-headless": "grunt headless",
     "start": "ws"

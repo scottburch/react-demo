@@ -1,8 +1,12 @@
+
 var Component = require('./Component');
 var Todo = require('./Todo');
 var TodoService = require('./TodoService');
 
 var nextKey = 0;
+
+var testing =  'testing';
+
 
 module.exports = class TodoList extends Component {
 

@@ -5,6 +5,7 @@ global.React = require('react');
 
 module.exports = class Component extends ReactComponent {
     constructor() {
+        super();
         wrapComponentWillMount.call(this);
         wrapComponentWillUnmount.call(this);
     }

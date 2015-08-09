@@ -1,5 +1,4 @@
-
-var Component = require('./Component');
+var Component = require('Component');
 var Todo = require('./Todo');
 var TodoService = require('./TodoService');
 
@@ -16,7 +15,12 @@ module.exports = class TodoList extends Component {
         TodoService.getTodos();
     }
 
+    shouldComponentUpdate(nextProps, nextState) {
+        return !!this.state.todos && this.state.todos.length !== nextState.todos.length;
+    }
+
     render() {
+        console.log('todoList render');
         var todos = this.state.todos;
         return (
             <div>

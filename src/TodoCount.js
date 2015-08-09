@@ -1,4 +1,4 @@
-var Component = require('./Component');
+var Component = require('Component');
 var TodoService = require('./TodoService');
 
 module.exports = class TodoCount extends Component {

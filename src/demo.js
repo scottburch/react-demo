@@ -1,17 +1,23 @@
-var reactDom = require('react-dom');
 var TodoList = require('./TodoList');
-var React = require('react');
 var CreateTodoForm = require('./CreateTodoForm');
 var TodoCount = require('./TodoCount');
 var State = require('./State');
+var Component = require('Component');
 
-reactDom.render((
-        <div>
-            <CreateTodoForm/>
-            <hr/>
-            <TodoList/>
-            <TodoCount />
-            <hr/>
-            <State />
-        </div>),
-    document.querySelector('#demo'));
+
+var Demo = class Demo extends Component {
+    render() {
+        return (
+            <div>
+                <CreateTodoForm/>
+                <hr/>
+                <TodoList/>
+                <TodoCount />
+                <hr/>
+                <State />
+            </div>
+        )
+    }
+}
+
+Component.renderToDom(Demo,document.querySelector('#demo'));

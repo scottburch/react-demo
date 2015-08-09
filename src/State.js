@@ -1,4 +1,4 @@
-var Component = require('./Component')
+var Component = require('Component')
 var RS = require('./RS');
 var localStorage = require('web-storage')().localStorage;
 

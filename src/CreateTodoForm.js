@@ -1,4 +1,4 @@
-var Component = require('./Component');
+var Component = require('Component');
 var TodoService = require('./TodoService');
 var Form = require('./form/Form');
 

@@ -1,4 +1,4 @@
-var Component = require('../Component');
+var Component = require('Component');
 var _ = require('lodash');
 
 module.exports = class Button extends Component {

@@ -9,5 +9,12 @@ module.exports = {
             { test: /\.js$/, loader: 'babel-loader' }
         ]
     },
-    devtool: "#inline-source-map"
+    devtool: "#inline-source-map",
+    resolve: {
+        alias: {
+            RS: __dirname+'/../retailportal/public/javascripts/react/RS',
+            Component: __dirname+'/../retailportal/public/javascripts/react/components/Component.js'
+        }
+    }
+
 };

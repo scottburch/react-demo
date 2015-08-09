@@ -1,4 +1,4 @@
-var Component = require('./Component');
+var Component = require('Component');
 var TodoService = require('./TodoService');
 var Form = require('./form/Form');
 var FadeIn = require('./FadeIn');
@@ -9,6 +9,8 @@ module.exports = class Todo extends Component {
     }
 
     render() {
+        console.log('todo render', this.props.id);
+
         return (
             <FadeIn duration={this.props.id ? 0 : 750}>
                 <div style={{borderBottom: '1px solid #ccc', height: 30, textDecoration: this.props.complete ? 'line-through' : '', color: this.props.id ? 'black' : '#aaa'}}>

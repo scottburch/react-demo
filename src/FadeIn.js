@@ -1,4 +1,4 @@
-var Component = require('./Component');
+var Component = require('Component');
 var $j = require('jquery');
 
 module.exports = class FadeIn extends Component {

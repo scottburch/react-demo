@@ -1,5 +1,5 @@
 var Button = require('./Button');
-var Component = require('../Component');
+var Component = require('Component');
 
 module.exports = class ActionButton extends Component {
     render() {

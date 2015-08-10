@@ -1,9 +1,9 @@
-var Component = require('Component');
+var PureRenderComponent = require('PureRenderComponent');
 var TodoService = require('./TodoService');
 var Form = require('./form/Form');
 var FadeIn = require('./FadeIn');
 
-module.exports = class Todo extends Component {
+module.exports = class Todo extends PureRenderComponent {
     deleteTodo() {
         this.state.todo.id && TodoService.deleteTodo(this.state.todo.id);
     }
@@ -14,7 +14,7 @@ module.exports = class Todo extends Component {
 
 
     render() {
-        console.log('todo render', this.state);
+        console.log('todo render', JSON.stringify(this.state.todo));
         var todo = this.state.todo || {};
         return (
             <div

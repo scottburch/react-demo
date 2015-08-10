@@ -13,7 +13,8 @@ module.exports = {
     resolve: {
         alias: {
             RS: __dirname+'/../retailportal/public/javascripts/react/RS',
-            Component: __dirname+'/../retailportal/public/javascripts/react/components/Component.js'
+            Component: __dirname+'/../retailportal/public/javascripts/react/components/Component.js',
+            PureRenderComponent: __dirname+'/../retailportal/public/javascripts/react/components/PureRenderComponent.js'
         }
     }
 

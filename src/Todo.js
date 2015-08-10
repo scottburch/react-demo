@@ -17,16 +17,16 @@ module.exports = class Todo extends PureRenderComponent {
         console.log('todo render', JSON.stringify(this.state.todo));
         var todo = this.state.todo || {};
         return (
-            <div
-                style={{borderBottom: '1px solid #ccc', height: 30, textDecoration: todo.complete ? 'line-through' : '', color: todo.id ? 'black' : '#aaa'}}>
-                <span> {todo.description}</span>
+            <FadeIn duration={750}>
+                <div style={{borderBottom: '1px solid #ccc', height: 30, textDecoration: todo.complete ? 'line-through' : '', color: todo.id ? 'black' : '#aaa'}}>
+                    <span> {todo.description}</span>
 
-                <div style={{float: 'right'}}>
-                    <Form.Button disabled={!todo.id} onClick={this.deleteTodo.bind(this)}>Delete</Form.Button>
-                    <input type="checkbox" checked={todo.complete}
-                           onChange={TodoService.toggleTodoComplete.bind(null, todo.id)}/>
+                    <div style={{float: 'right'}}>
+                        <Form.Button disabled={!todo.id} onClick={this.deleteTodo.bind(this)}>Delete</Form.Button>
+                        <input type="checkbox" checked={todo.complete} onChange={TodoService.toggleTodoComplete.bind(null, todo.id)}/>
+                    </div>
                 </div>
-            </div>
+            </FadeIn>
         )
     }
 };

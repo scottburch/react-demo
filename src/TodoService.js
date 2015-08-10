@@ -17,14 +17,15 @@ module.exports =  {
 
     addTodo(data) {
         var tempId = nextId++;
-        RS.set('todos', RS.get('todos').concat(_.extend(data, {tempId: tempId})));
-        setTimeout(() => RS.set('todos', RS.get('todos').map(todo => todo.tempId === tempId ? _.extend(todo, {id: todo.tempId}) : todo)), 2000);
+        var idx = RS.get('todos').length;
+        RS.set(`todos.${idx}`,_.extend(data, {tempId: tempId}));
+        setTimeout(() => RS.set(`todos.${idx}.id`, tempId), 2000);
     },
     deleteTodo(id) {
         RS.set('todos', RS.get('todos').filter(todo => todo.id !== id));
     },
 
     toggleTodoComplete(id) {
-        RS.set('todos', RS.get('todos').map(todo => todo.id === id ? _.extend(todo, {complete:!todo.complete}) : todo));
+        RS.get('todos').forEach((todo, idx) => todo.id === id && RS.set(`todos.${idx}`, _.extend(todo, {complete: !todo.complete})));
     }
 };

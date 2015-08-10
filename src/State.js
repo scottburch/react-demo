@@ -22,7 +22,7 @@ module.exports = class State extends Component {
     render() {
         return (
             <div>
-                <textarea ref="state" style={{width: '100%'}} rows="10"/>
+                <textarea ref="state" style={{width: '100%'}} rows="2"/>
                 <div>
                     <button onClick={this.getState.bind(this)}>Get State</button>
                     <button onClick={this.saveState.bind(this)}>Save State</button>

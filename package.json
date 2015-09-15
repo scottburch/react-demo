@@ -6,8 +6,8 @@
   "main": "demo.js",
   "dependencies": {
     "lodash": "~3.10.0",
-    "react": "~0.14.0-beta3",
-    "react-dom": "~0.14.0-beta3",
+    "react": "~0.14.0-rc1",
+    "react-dom": "~0.14.0-rc1",
     "reactive-store": "~0.1.1",
     "jquery": "~2.1.4"
   },

@@ -14,13 +14,23 @@ module.exports = class TodoList extends Component {
     }
 
     render() {
-        console.log('todoList render');
         var todos = this.state.todos;
         return (
             <div>
                 <h2>{text.todoListHeader}</h2>
-                {todos ? todos.map((todo, idx) => <Todo key={idx} rsKey={`todos.${idx}`} />) : <h1>LOADING...</h1>}
+                <Loading isLoading={!todos}>
+                    {todos && todos.map((todo, idx) => <Todo key={idx} rsKey={`todos.${idx}`} />)}
+                </Loading>
             </div>
         )
     }
+
+
 };
+
+var Loading = class Loading extends Component {
+    render() {
+        var {isLoading, children} = this.props;
+        return isLoading ? <h1>I'm loading...</h1> : <div>{children}</div>;
+    }
+}

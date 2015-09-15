@@ -12,9 +12,9 @@ module.exports = {
     devtool: "#inline-source-map",
     resolve: {
         alias: {
-            RS: __dirname+'/../retailportal/public/javascripts/react/RS',
-            Component: __dirname+'/../retailportal/public/javascripts/react/components/Component.js',
-            PureRenderComponent: __dirname+'/../retailportal/public/javascripts/react/components/PureRenderComponent.js'
+            RS: __dirname+'/../retailportal/client/RS',
+            Component: __dirname+'/../retailportal/client/components/Component.js',
+            PureRenderComponent: __dirname+'/../retailportal/client/components/PureRenderComponent.js'
         }
     }
 

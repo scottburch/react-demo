@@ -2,7 +2,7 @@ var Component = require('Component');
 var Todo = require('./Todo');
 var TodoService = require('./TodoService');
 
-module.exports = class TodoList extends Component {
+module.exports = class TodoList extends Component.Pure {
 
     componentWillMount() {
         this.registerStoreKey('todos');
@@ -28,7 +28,7 @@ module.exports = class TodoList extends Component {
 
 };
 
-var Loading = class Loading extends Component {
+var Loading = class Loading extends Component.Pure {
     render() {
         var {isLoading, children} = this.props;
         return isLoading ? <h1>I'm loading...</h1> : <div>{children}</div>;

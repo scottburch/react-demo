@@ -1,0 +1,12 @@
+Designed with FP in mind
+Immutable views
+Pure render function
+Not tied to DOM
+
+
+Composition
+
+
+React chrome tool
+
+Testing components

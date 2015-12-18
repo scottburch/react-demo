@@ -1,8 +1,9 @@
 var RS = require('./RS');
-
 var todosLoaded = false;
 var nextId = new Date().getTime();
 var TODO_LOAD_DELAY = 2000;
+
+RS.set('todos', []);
 
 module.exports =  {
     getTodos() {

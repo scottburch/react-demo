@@ -5,21 +5,21 @@
   "private": true,
   "main": "demo.js",
   "dependencies": {
+    "babel-core": "~6.3.17",
+    "babel-loader": "~6.2.0",
+    "jquery": "~2.1.4",
+    "local-web-server": "~1.1.0",
     "lodash": "~3.10.0",
-    "react": "~0.14.0-rc1",
-    "react-dom": "~0.14.0-rc1",
-    "reactive-store": "~0.1.1",
-    "jquery": "~2.1.4"
-  },
-  "devDependencies": {
-    "mock-browser": "~0.90.33",
-    "grunt-contrib-jasmine": "~0.9.0",
-    "source-map-support": "~0.3.2",
-    "local-web-server": "~0.5.20",
+    "patlib": "https://npm.fury.io/vjq6ztr21_UuU2couMNu/asurionwms/patlib/-/latest.tgz",
+    "react": "~0.14.0",
+    "react-bootstrap": "^0.28.1",
+    "react-dom": "~0.14.0",
+    "reactive-store": "~0.2.6",
+    "source-map-support": "~0.4.0",
+    "url-loader": "^0.5.7",
     "web-storage": "~1.0.0",
-    "babel-core": "~5.8.21",
-    "webpack": "~1.11.0",
-    "babel-loader": "~5.3.2"
+    "webpack": "~1.12.9",
+    "webpack-beep-plugin": "0.0.1"
   },
   "scripts": {
     "compile": "watchify -t [reactify --es6 --target es5] -t strictify src/demo.js -o demo.js --debug -v",

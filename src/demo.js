@@ -2,13 +2,14 @@ var TodoList = require('./TodoList');
 var CreateTodoForm = require('./CreateTodoForm');
 var TodoCount = require('./TodoCount');
 var State = require('./State');
-var Component = require('Component');
+var Component = require('PureRenderComponent');
+require('style/bootstrap-3.3.5-dist/css/bootstrap.css');
 
 
 var Demo = class Demo extends Component {
     render() {
         return (
-            <div>
+            <div style={{padding: 10}}>
                 <CreateTodoForm/>
                 <hr/>
                 <TodoList/>

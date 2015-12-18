@@ -1,20 +1,22 @@
 var Component = require('Component');
 var TodoService = require('./TodoService');
-var Form = require('./form/Form');
+var Form = require('patlib/group/InputForm');
 
 module.exports = class CreateTodoForm extends Component {
 
     createTodo() {
-        var description = this.refs.description.value;
+        var description = RS.get('create-todo-form.values.description');
         description && TodoService.addTodo({description: description});
-        this.refs.description.value = "";
+        RS.set('create-todo-form.values.description', '');
     }
 
     render() {
         return (
             <div>
-                <div>Todo description: <input ref="description" /></div>
-                <div><Form.SubmitButton onClick={this.createTodo.bind(this)}>Create todo</Form.SubmitButton></div>
+                <Form rsKey="create-todo-form">
+                    <Form.InputText name="description" label="Todo description"/>
+                </Form>
+                <Form.BtnPrimary size="sm" onClick={this.createTodo.bind(this)}>Create todo</Form.BtnPrimary>
             </div>
         )
     }

@@ -1,9 +1,9 @@
 require('source-map-support').install()
 var TodoList = require('../../src/TodoList');
-var Component = require('../../src/Component');
-ReactHelpers = require('../ReactHelpers');
-RS = require('../../src/RS');
-$j = require('jquery');
+var Component = require('Component');
+var ReactHelpers = require('ReactHelpers');
+var RS = require('../../src/RS');
+var $j = require('jquery');
 
 //global.text = {};
 

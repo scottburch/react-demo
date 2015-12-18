@@ -17,7 +17,7 @@ module.exports = class TodoList extends Component.Pure {
         var todos = this.state.todos;
         return (
             <div>
-                <h2>{text.todoListHeader}</h2>
+                <h2>Todos</h2>
                 <Loading isLoading={!todos}>
                     {todos && todos.map((todo, idx) => <Todo key={idx} rsKey={`todos.${idx}`} />)}
                 </Loading>

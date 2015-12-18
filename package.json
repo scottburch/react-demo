@@ -7,6 +7,7 @@
   "dependencies": {
     "babel-core": "~6.3.17",
     "babel-loader": "~6.2.0",
+    "glob": "^6.0.1",
     "jquery": "~2.1.4",
     "local-web-server": "~1.1.0",
     "lodash": "~3.10.0",

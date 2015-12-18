@@ -1,7 +1,6 @@
 var BeepPlugin = require('webpack-beep-plugin');
 var webpack = require('webpack');
 var path = require('path');
-
 var patlib = path.normalize(__dirname + '/node_modules/patlib');
 
 module.exports = {
@@ -32,13 +31,16 @@ module.exports = {
     devtool: "#inline-source-map",
     resolve: {
         alias: {
-            RS: __dirname + '/../retailportal/client/RS',
+            RS: __dirname + '/src/RS',
             patlib: `${patlib}/components`,
             Component: `${patlib}/components/Component`,
             PureRenderComponent: `${patlib}/components/PureRenderComponent`,
             style: `${__dirname}/src/style`,
             GetText: `${__dirname}/src/GetText`
         }
+    },
+    node: {
+        fs: "empty"
     },
     plugins: [
         new BeepPlugin(),

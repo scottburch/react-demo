@@ -8,16 +8,18 @@ var $todo;
 
 describe('Todo Tests', () =>  {
     beforeEach(() => {
-        RS.set('todos', [{description:'my todo'}]);
-        $todo = ReactHelpers.render(<Todo rsKey="todos"/>);
+        RS.set('todos', [{id: 1, description:'my todo'}]);
+        $todo = ReactHelpers.render(<Todo rsKey="todos.0"/>);
     });
 
     it('should contain the passed description', () => {
-        expect($todo.find(':contains("my todo")').size()).toBeGreaterThan(0);
+        expect($todo.find(':contains(my todo)').size()).toBeGreaterThan(0);
     });
 
     it('should mark the Todo completed if passed complete as a property',() => {
-        var node = ReactHelpers.render(<Todo rsKey="todos" description="my todo" complete={true}/>);
-        expect($j('div', node).css('text-decoration')).toBe('line-through');
+        expect($todo.find('span:contains(my todo)').parent().css('text-decoration')).toBe('none');
+        RS.set('todos.0.complete', true);
+        expect($todo.find('span:contains(my todo)').parent().css('text-decoration')).toBe('line-through');
+
     });
 });

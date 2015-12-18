@@ -1,30 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/test/spec/TodoSpec.js" line="20" mnemonic="4" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="edbd8b9b-54d9-46cd-a4c3-e02d049f2f5b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/jasmine/lib/jasmine-2.3.4/jasmine_favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/SpecRunner.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/jasmine/MIT.LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/jasmine/lib/jasmine-2.3.4/boot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/jasmine/lib/jasmine-2.3.4/console.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/jasmine/lib/jasmine-2.3.4/jasmine-html.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/jasmine/lib/jasmine-2.3.4/jasmine.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/jasmine/lib/jasmine-2.3.4/jasmine.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/webpack.config.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test.sh" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../npm-packages/patlib" afterPath="$PROJECT_DIR$/../npm-packages/patlib" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo.iws" afterPath="$PROJECT_DIR$/demo.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo.js" afterPath="$PROJECT_DIR$/demo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Todo.js" afterPath="$PROJECT_DIR$/src/Todo.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TodoList.js" afterPath="$PROJECT_DIR$/src/TodoList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ReactHelpers.js" afterPath="$PROJECT_DIR$/test/ReactHelpers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/package.json" afterPath="$PROJECT_DIR$/test/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/spec/TodoListSpec.js" afterPath="$PROJECT_DIR$/test/spec/TodoListSpec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/spec/TodoSpec.js" afterPath="$PROJECT_DIR$/test/spec/TodoSpec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/tests.js" afterPath="$PROJECT_DIR$/test/tests.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../npm-packages/npm-packages.iml" afterPath="$PROJECT_DIR$/../npm-packages/npm-packages.iml" />
     </list>
     <ignored path="demo.iws" />
@@ -51,18 +36,18 @@
       <file leaf-file-name="TodoList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TodoList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.172414">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="-10.344828">
+              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TodoListSpec.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TodoListSpec.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/spec/TodoListSpec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.64171976">
+              <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -72,7 +57,17 @@
         <entry file="file://$PROJECT_DIR$/test/spec/TodoSpec.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+              <caret line="19" column="95" selection-start-line="19" selection-start-column="95" selection-end-line="19" selection-end-column="95" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Todo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Todo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,16 +103,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="boot.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/jasmine/lib/jasmine-2.3.4/boot.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SpecRunner.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/SpecRunner.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -128,20 +113,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.625">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14012739">
+            <state vertical-scroll-proportion="0.0">
               <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
               <folding />
             </state>
@@ -185,7 +160,6 @@
         <option value="$PROJECT_DIR$/src/GetText.js" />
         <option value="$PROJECT_DIR$/node_modules/patlib/components/core/InputCheckbox.js" />
         <option value="$PROJECT_DIR$/src/TodoService.js" />
-        <option value="$PROJECT_DIR$/src/Todo.js" />
         <option value="$PROJECT_DIR$/src/State.js" />
         <option value="$PROJECT_DIR$/src/demo.js" />
         <option value="$PROJECT_DIR$/src/TodoCount.js" />
@@ -195,12 +169,13 @@
         <option value="$PROJECT_DIR$/notes.txt" />
         <option value="$PROJECT_DIR$/src/CreateTodoForm.js" />
         <option value="$PROJECT_DIR$/test/SpecRunner.html" />
-        <option value="$PROJECT_DIR$/test/package.json" />
-        <option value="$PROJECT_DIR$/test/spec/TodoListSpec.js" />
-        <option value="$PROJECT_DIR$/src/TodoList.js" />
-        <option value="$PROJECT_DIR$/test/spec/TodoSpec.js" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/test/webpack.config.js" />
+        <option value="$PROJECT_DIR$/test/spec/TodoSpec.js" />
+        <option value="$PROJECT_DIR$/src/Todo.js" />
+        <option value="$PROJECT_DIR$/test/package.json" />
+        <option value="$PROJECT_DIR$/src/TodoList.js" />
+        <option value="$PROJECT_DIR$/test/spec/TodoListSpec.js" />
       </list>
     </option>
   </component>
@@ -386,6 +361,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1137,7 +1130,7 @@
       <workItem from="1437586959820" duration="1816000" />
       <workItem from="1438370254975" duration="2170000" />
       <workItem from="1438377561542" duration="178000" />
-      <workItem from="1450394062041" duration="13916000" />
+      <workItem from="1450394062041" duration="16477000" />
     </task>
     <task id="LOCAL-00001" summary="clear input field for new todo">
       <created>1436856351744</created>
@@ -1317,7 +1310,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126159000" />
+    <option name="totallyTimeSpent" value="128720000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1384" height="833" extended-state="0" />
@@ -1736,50 +1729,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/spec/TodoListSpec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../npm-packages/patlib/test/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TodoList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.172414">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Todo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/spec/TodoSpec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -1802,8 +1755,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14012739">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/spec/TodoSpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="95" selection-start-line="19" selection-start-column="95" selection-end-line="19" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4718543">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TodoList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.344828">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/spec/TodoListSpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64171976">
+          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
           <folding />
         </state>
       </provider>

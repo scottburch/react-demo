@@ -20,7 +20,7 @@ module.exports = class Todo extends PureRenderComponent {
             <Row style={{borderBottom: '1px solid #ccc', paddingBottom: 10, paddingTop: 10}}>
                 <Col xs={12}>
                     <FadeIn duration={750}>
-                        <div style={{textDecoration: todo.complete ? 'line-through' : '', color: todo.id ? 'black' : '#aaa'}}>
+                        <div style={{textDecoration: todo.complete ? 'line-through' : 'none', color: todo.id ? 'black' : '#aaa'}}>
                             <span> {todo.description}</span>
                                     <Form.Btn size="sm" disabled={!todo.id}
                                               onClick={this.deleteTodo.bind(this)} className="pull-right">Delete</Form.Btn>

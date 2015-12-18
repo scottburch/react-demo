@@ -14,12 +14,12 @@ module.exports = class TodoList extends Component.Pure {
     }
 
     render() {
-        var todos = this.state.todos;
+        var todos = this.state.todos || [];
         return (
             <div>
                 <h2>Todos</h2>
-                <Loading isLoading={!todos}>
-                    {todos && todos.map((todo, idx) => <Todo key={idx} rsKey={`todos.${idx}`} />)}
+                <Loading isLoading={!todos.length}>
+                    {todos.map((todo, idx) => <Todo key={idx} rsKey={`todos.${idx}`} />)}
                 </Loading>
             </div>
         )

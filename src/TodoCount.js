@@ -15,7 +15,7 @@ module.exports = class TodoCount extends Component {
             return (
                 <div>
                     <div>Total Todos: {todos.length}</div>
-                    <div>Incomplete Todos: {todos.filter(todo => todo.complete !== true).length}</div>
+                    <div>Incomplete Todos: {todos.filter(todo => !todo.complete).length}</div>
                 </div>
             )
         }

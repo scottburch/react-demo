@@ -9,14 +9,14 @@ require('style/bootstrap-3.3.5-dist/css/bootstrap.css');
 var Demo = class Demo extends Component {
     render() {
         return (
-            <div style={{padding: 10}}>
+            <Grid>
                 <CreateTodoForm/>
                 <hr/>
                 <TodoList/>
                 <TodoCount />
                 <hr/>
                 <State />
-            </div>
+            </Grid>
         )
     }
 }

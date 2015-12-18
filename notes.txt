@@ -6,6 +6,8 @@ Not tied to DOM
 
 Composition
 
+Stateless components (State.js)
+References (CreateTodoForm.js)
 
 React chrome tool
 

@@ -3,7 +3,7 @@ var Todo = require('./Todo');
 var TodoService = require('./TodoService');
 var _ = require('lodash');
 
-module.exports = class TodoList extends Component.Pure {
+module.exports = class TodoList extends Component {
 
     componentWillMount() {
         this.registerStoreKey('todos');
@@ -11,7 +11,7 @@ module.exports = class TodoList extends Component.Pure {
     }
 
     shouldComponentUpdate(nextProps, nextState) {
-        return !!this.state.todos && this.state.todos.length !== nextState.todos.length;
+        return _.size(this.state.todos) !== _.size(nextState.todos);
     }
 
     render() {

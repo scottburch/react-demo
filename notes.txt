@@ -10,6 +10,7 @@ Composition
 
 Stateless components (State.js)
 References (CreateTodoForm.js)
+Restricting renders (TodoList.js)
 
 React chrome tool
 

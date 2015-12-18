@@ -9,9 +9,9 @@ module.exports = class TodoCount extends Component {
 
     render() {
         var todos = this.state.todos;
-        return todos ? showCounts() : <div></div>;
+        return todos ? showCounts(todos) : <div></div>;
 
-        function showCounts() {
+        function showCounts(todos) {
             return (
                 <div>
                     <div>Total Todos: {todos.length}</div>

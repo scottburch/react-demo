@@ -19,6 +19,6 @@ var Demo = class Demo extends Component {
             </Grid>
         )
     }
-}
+};
 
 Component.renderToDom(Demo,document.querySelector('#demo'));

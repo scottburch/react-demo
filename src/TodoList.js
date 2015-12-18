@@ -1,6 +1,7 @@
 var Component = require('Component');
 var Todo = require('./Todo');
 var TodoService = require('./TodoService');
+var _ = require('lodash');
 
 module.exports = class TodoList extends Component.Pure {
 
@@ -28,4 +29,4 @@ module.exports = class TodoList extends Component.Pure {
 
 };
 
-var Loading = props => props.isLoading ? <h1>I'm loading...</h1> : <div>{props.children}</div>
+var Loading = props => props.isLoading ? <h1>I'm loading...</h1> : <div>{props.children}</div>;

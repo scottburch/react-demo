@@ -161,7 +161,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/demo.iml" filepath="$PROJECT_DIR$/demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../npm-packages/npm-packages.iml" filepath="$PROJECT_DIR$/../npm-packages/npm-packages.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true">
@@ -169,7 +168,6 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../npm-packages" vcs="Git" />
   </component>
   <component name="libraryTable">
     <library name="demo node_modules" type="javaScript">

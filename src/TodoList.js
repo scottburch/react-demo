@@ -28,9 +28,4 @@ module.exports = class TodoList extends Component.Pure {
 
 };
 
-var Loading = class Loading extends Component.Pure {
-    render() {
-        var {isLoading, children} = this.props;
-        return isLoading ? <h1>I'm loading...</h1> : <div>{children}</div>;
-    }
-}
+var Loading = props => props.isLoading ? <h1>I'm loading...</h1> : <div>{props.children}</div>

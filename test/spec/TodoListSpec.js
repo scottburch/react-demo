@@ -1,6 +1,5 @@
 var rewire = require('rewire');
 var TodoList = rewire('../../src/TodoList');
-var Component = require('Component');
 var ReactHelpers = require('ReactHelpers');
 var RS = require('../../src/RS');
 var $j = require('jquery');

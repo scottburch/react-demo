@@ -1,6 +1,7 @@
 var Component = require('Component')
 var RS = require('./RS');
 var localStorage = require('web-storage')().localStorage;
+var Form = require('patlib/group/InputForm');
 
 var state = localStorage.get('state');
 state && RS.load(JSON.parse(state));
@@ -22,13 +23,16 @@ module.exports = class State extends Component {
     render() {
         return (
             <div>
-                <textarea ref="state" style={{width: '100%'}} rows="2"/>
+                <textarea ref="state" style={{width: '100%', marginBottom: 10}} rows="4"/>
                 <div>
-                    <button onClick={this.getState.bind(this)}>Get State</button>
-                    <button onClick={this.saveState.bind(this)}>Save State</button>
-                    <button onClick={this.clearState.bind(this)}>Clear State</button>
+                    <Btn onClick={this.getState.bind(this)}>Get State</Btn>
+                    <Btn onClick={this.saveState.bind(this)}>Save State</Btn>
+                    <Btn onClick={this.clearState.bind(this)}>Clear State</Btn>
                 </div>
             </div>
+
         )
     }
-}
+};
+
+var Btn = props => <Form.Btn size="sm" style={{marginRight: 5}} {...props}>{props.children}</Form.Btn>;

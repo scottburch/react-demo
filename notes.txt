@@ -1,10 +1,11 @@
 Designed with FP in mind
-Immutable views
+Write once, run anywhere vs Learn once, write anywhere
+Immutable views/components
 Pure render function
 Not tied to DOM
 Why not MVC
 JSX
-
+Difference between properties and state
 
 Composition
 
@@ -12,6 +13,7 @@ Stateless components (State.js)
 References (CreateTodoForm.js)
 Restricting renders (TodoList.js)
 
+Testing components
+
 React chrome tool
 
-Testing components

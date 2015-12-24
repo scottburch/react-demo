@@ -1,9 +1,10 @@
 Designed with FP in mind
-Write once, run anywhere vs Learn once, write anywhere
 Immutable views/components
 Pure render function
+One way data flow
 Not tied to DOM
-Why not MVC
+Write once, run anywhere vs Learn once, write anywhere
+Why not MVC? (View/Service/Store)
 JSX
 Difference between properties and state
 

@@ -11,7 +11,7 @@
     "jquery": "~2.1.4",
     "local-web-server": "~1.1.0",
     "lodash": "~3.10.0",
-    "patlib": "https://npm.fury.io/vjq6ztr21_UuU2couMNu/asurionwms/patlib/-/latest.tgz",
+    "patlib": "git@bitbucket.org:asurionwms/patlib.git#release",
     "react": "~0.14.0",
     "react-bootstrap": "^0.28.1",
     "react-dom": "~0.14.0",

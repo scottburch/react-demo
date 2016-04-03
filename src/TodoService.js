@@ -26,7 +26,7 @@ module.exports =  {
         RS.set('todos', RS.get('todos').filter(todo => todo.id !== id));
     },
 
-    toggleTodoComplete(id) {
-        RS.get('todos').forEach((todo, idx) => todo.id === id && RS.set(`todos.${idx}`, _.extend(todo, {complete: !todo.complete})));
-    }
+//    toggleTodoComplete(id) {
+  //      RS.get('todos').forEach((todo, idx) => todo.id === id && RS.set(`todos.${idx}`, _.extend(todo, {complete: !todo.complete})));
+    //}
 };

@@ -22,9 +22,9 @@ module.exports = class Todo extends PureRenderComponent {
                     <FadeIn duration={750}>
                         <div style={{textDecoration: todo.complete ? 'line-through' : 'none', color: todo.id ? 'black' : '#aaa'}}>
                             <span> {todo.description}</span>
-                                    <Form.Btn size="sm" disabled={!todo.id}
-                                              onClick={this.deleteTodo.bind(this)} className="pull-right">Delete</Form.Btn>
-                            <input className="pull-right" style={{marginRight: 10}} type="checkbox" checked={todo.complete} onChange={TodoService.toggleTodoComplete.bind(null, todo.id)}/>
+                                    <Form.BtnSecondary style={{float: 'right'}} size="xs" disabled={!todo.id}
+                                              onClick={this.deleteTodo.bind(this)}>Delete</Form.BtnSecondary>
+                            <Form.InputCheckbox rsKey={`${this.props.rsKey}.complete`} name={`todo-${todo.id}`} className="pull-right" style={{marginRight: 10}} checked={todo.complete} />
                         </div>
                     </FadeIn>
                 </Col>

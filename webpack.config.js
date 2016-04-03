@@ -1,7 +1,6 @@
 var BeepPlugin = require('webpack-beep-plugin');
 var webpack = require('webpack');
 var path = require('path');
-var patlib = path.normalize(__dirname + '/node_modules/patlib');
 
 module.exports = {
     entry: './src/demo.js',
@@ -32,9 +31,9 @@ module.exports = {
     resolve: {
         alias: {
             RS: __dirname + '/src/RS',
-            patlib: `${patlib}/components`,
-            Component: `${patlib}/components/Component`,
-            PureRenderComponent: `${patlib}/components/PureRenderComponent`,
+            patlib: 'patlib/components',
+            Component: 'patlib/components/Component',
+            PureRenderComponent: 'patlib/components/PureRenderComponent',
             style: `${__dirname}/src/style`,
             GetText: `${__dirname}/src/GetText`
         }
@@ -50,8 +49,8 @@ module.exports = {
             Col: 'react-bootstrap/lib/Col',
             Row: 'react-bootstrap/lib/Row',
             Grid: 'react-bootstrap/lib/Grid',
-            PureRenderComponent: `${patlib}/components/PureRenderComponent`,
-            Component: `${patlib}/components/Component`
+            PureRenderComponent: 'patlib/components/PureRenderComponent',
+            Component: 'patlib/components/Component'
         })
     ]
 

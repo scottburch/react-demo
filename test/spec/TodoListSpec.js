@@ -1,16 +1,13 @@
 var rewire = require('rewire');
 var TodoList = rewire('../../src/TodoList');
-var ReactHelpers = require('ReactHelpers');
-var RS = require('../../src/RS');
-var $j = require('jquery');
-
-//global.text = {};
+var RH = require('jasmine-testing/helpers/ReactHelpers');
+var RS = require('RS');
 
 describe('TodoList Tests', () => {
     var $node;
 
     beforeEach(() => {
-        $node = $j(ReactHelpers.render(<TodoList />));
+        $node = $j(RH.render(<TodoList />));
         TodoList.__set__('Todo', TodoMock);
     });
 

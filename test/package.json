@@ -16,6 +16,7 @@
     "rewire": "^2.5.1",
     "rewire-webpack": "^1.0.1",
     "source-map-support": "^0.4.0",
-    "webpack": "^1.12.9"
+    "webpack": "^1.12.9",
+    "jasmine-testing": "git@bitbucket.org:asurionwms/jasmine-testing.git#release"
   }
 }

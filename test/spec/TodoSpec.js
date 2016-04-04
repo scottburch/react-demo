@@ -1,15 +1,14 @@
 require('source-map-support').install()
 var Todo = require('../../src/Todo');
-var $j = require('jquery');
 
-var ReactHelpers = require('../ReactHelpers');
+var RH = require('jasmine-testing/helpers/ReactHelpers');
 
 var $todo;
 
 describe('Todo Tests', () =>  {
     beforeEach(() => {
         RS.set('todos', [{id: 1, description:'my todo'}]);
-        $todo = ReactHelpers.render(<Todo rsKey="todos.0"/>);
+        $todo = RH.render(<Todo rsKey="todos.0"/>);
     });
 
     it('should contain the passed description', () => {
@@ -17,9 +16,9 @@ describe('Todo Tests', () =>  {
     });
 
     it('should mark the Todo completed if passed complete as a property',() => {
-        expect($todo.find('span:contains(my todo)').parent().css('text-decoration')).toBe('none');
+        expect($todo).not.toHaveClass('todo-complete');
         RS.set('todos.0.complete', true);
-        expect($todo.find('span:contains(my todo)').parent().css('text-decoration')).toBe('line-through');
+        expect($todo).toHaveClass('todo-complete');
 
     });
 });

@@ -22,7 +22,7 @@ module.exports = class Todo extends PureRenderComponent {
                     <FadeIn duration={750}>
                         <div className="todo-description">
                             {todo.description}
-                            <Form.BtnSecondary style={{float: 'right'}} size="xs" disabled={!todo.id}
+                            <Form.BtnSecondary size="xs" disabled={!todo.id}
                                                onClick={this.deleteTodo.bind(this)}>Delete</Form.BtnSecondary>
                             <Form.InputCheckbox rsKey={`${this.props.rsKey}.complete`} name={`todo-${todo.id}`}
                                                 className="pull-right" style={{marginRight: 10}}

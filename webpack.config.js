@@ -50,7 +50,8 @@ module.exports = {
             Row: 'react-bootstrap/lib/Row',
             Grid: 'react-bootstrap/lib/Grid',
             PureRenderComponent: 'patlib/components/PureRenderComponent',
-            Component: 'patlib/components/Component'
+            Component: 'patlib/components/Component',
+            M: 'simple-monads'
         })
     ]
 

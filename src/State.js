@@ -1,6 +1,6 @@
 var Component = require('Component')
 var RS = require('./RS');
-var localStorage = require('web-storage')().localStorage;
+//var localStorage = require('web-storage')().localStorage;
 var Form = require('patlib/group/InputForm');
 
 loadStoredState();
@@ -11,11 +11,11 @@ module.exports = class State extends Component {
     }
 
     saveState() {
-        localStorage.set('state', this.refs.stateForm.getValue('state'));
+        localStorage.setItem('state', this.refs.stateForm.getValue('state'));
     }
 
     clearState() {
-        localStorage.remove('state');
+        localStorage.removeItem('state');
         this.refs.stateForm.setValue('state', '');
     }
 
@@ -36,6 +36,7 @@ module.exports = class State extends Component {
 var Btn = props => <Form.BtnSecondary size="xs" {...props}>{props.children}</Form.BtnSecondary>;
 
 function loadStoredState() {
-    var state = localStorage.get('state');
-    state && RS.load(JSON.parse(state));
+    M.Maybe.of(localStorage.getItem('state'))
+        .map(JSON.parse)
+        .map(RS.load);
 }

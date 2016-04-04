@@ -19,7 +19,7 @@ module.exports =  {
     }
 };
 
-var initialTodos = _.once(() => setTimeout(() => _.size(RS.get('todos')) || RS.set('todos', initialTodosData), TODO_LOAD_DELAY));
+var initialTodos = () => setTimeout(() => _.size(RS.get('todos')) || RS.set('todos', initialTodosData), TODO_LOAD_DELAY);
 
 
 var initialTodosData = [{id:1, description: 'Do something'}, {id:2, description: 'Do something else'}];

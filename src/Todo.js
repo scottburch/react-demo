@@ -2,7 +2,7 @@ var PureRenderComponent = require('PureRenderComponent');
 var TodoService = require('./TodoService');
 var FadeIn = require('./FadeIn');
 var Form = require('patlib/group/InputForm');
-
+require('./todo.less');
 
 module.exports = class Todo extends PureRenderComponent {
     deleteTodo() {
@@ -17,19 +17,21 @@ module.exports = class Todo extends PureRenderComponent {
     render() {
         var todo = this.state.todo;
         return (
-            <Row style={{borderBottom: '1px solid #ccc', paddingBottom: 10, paddingTop: 10}}>
+            <Row className={`todo ${todo.complete ? 'todo-complete' : ''}`}>
                 <Col xs={12}>
                     <FadeIn duration={750}>
-                        <div style={{textDecoration: todo.complete ? 'line-through' : 'none', color: todo.id ? 'black' : '#aaa'}}>
-                            <span> {todo.description}</span>
-                                    <Form.BtnSecondary style={{float: 'right'}} size="xs" disabled={!todo.id}
-                                              onClick={this.deleteTodo.bind(this)}>Delete</Form.BtnSecondary>
-                            <Form.InputCheckbox rsKey={`${this.props.rsKey}.complete`} name={`todo-${todo.id}`} className="pull-right" style={{marginRight: 10}} checked={todo.complete} />
+                        <div className="todo-description">
+                            {todo.description}
+                            <Form.BtnSecondary style={{float: 'right'}} size="xs" disabled={!todo.id}
+                                               onClick={this.deleteTodo.bind(this)}>Delete</Form.BtnSecondary>
+                            <Form.InputCheckbox rsKey={`${this.props.rsKey}.complete`} name={`todo-${todo.id}`}
+                                                className="pull-right" style={{marginRight: 10}}
+                                                checked={todo.complete}/>
                         </div>
                     </FadeIn>
                 </Col>
             </Row>
-        )
+        );
     }
 };
 

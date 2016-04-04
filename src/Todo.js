@@ -17,7 +17,7 @@ module.exports = class Todo extends PureRenderComponent {
     render() {
         var todo = this.state.todo;
         return (
-            <Row className={`todo ${todo.complete ? 'todo-complete' : ''}`}>
+            <Row className={`todo ${todo.complete ? 'todo-complete' : ''} ${todo.id ? '' : 'todo-saving'}`}>
                 <Col xs={12}>
                     <FadeIn duration={750}>
                         <div className="todo-description">

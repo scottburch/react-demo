@@ -1,7 +1,6 @@
 var Component = require('Component');
 var Todo = require('./Todo');
 var TodoService = require('./TodoService');
-var _ = require('lodash');
 
 module.exports = class TodoList extends Component {
 

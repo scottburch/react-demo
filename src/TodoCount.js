@@ -1,7 +1,6 @@
-var Component = require('Component');
-var TodoService = require('./TodoService');
+var ShowHide = require('patlib/group/ShowHide');
 
-module.exports = class TodoCount extends Component {
+module.exports = class TodoCount extends PureRenderComponent {
 
     componentWillMount() {
         this.registerStoreKey('todos');
@@ -9,15 +8,11 @@ module.exports = class TodoCount extends Component {
 
     render() {
         var todos = this.state.todos;
-        return todos ? showCounts(todos) : <div></div>;
-
-        function showCounts(todos) {
-            return (
-                <div>
-                    <div>Total Todos: {todos.length}</div>
-                    <div>Incomplete Todos: {todos.filter(todo => !todo.complete).length}</div>
-                </div>
-            )
-        }
+        return (
+            <ShowHide show={!!todos}>
+                <div>Total Todos: {todos.length}</div>
+                <div>Incomplete Todos: {todos.filter(todo => !todo.complete).length}</div>
+            </ShowHide>
+        );
     }
 };

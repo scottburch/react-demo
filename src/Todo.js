@@ -6,7 +6,7 @@ require('./todo.less');
 
 module.exports = class Todo extends PureRenderComponent {
     deleteTodo() {
-        this.state.todo.id && TodoService.deleteTodo(this.state.todo.id);
+        M.Maybe.of(this.state.todo.id).map(TodoService.deleteTodo);
     }
 
     componentWillMount() {

@@ -1,2 +1,1 @@
-global.RS = global.RS || require('reactive-store')();
-module.exports = global.RS;
+module.exports = global.RS = global.RS || require('reactive-store')();

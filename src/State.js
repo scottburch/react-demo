@@ -1,11 +1,9 @@
-var Component = require('Component')
 var RS = require('./RS');
-//var localStorage = require('web-storage')().localStorage;
 var Form = require('patlib/group/InputForm');
 
 loadStoredState();
 
-module.exports = class State extends Component {
+module.exports = class State extends PureRenderComponent {
     getState() {
         this.refs.stateForm.setValue('state', JSON.stringify(RS.dump()));
     }

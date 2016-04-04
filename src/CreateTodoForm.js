@@ -1,17 +1,15 @@
-var Component = require('Component');
 var TodoService = require('./TodoService');
 var Form = require('patlib/group/InputForm');
 var Alert = require('patlib/core/Alert');
 var ShowHide = require('patlib/group/ShowHide');
 
-module.exports = class CreateTodoForm extends Component {
+module.exports = class CreateTodoForm extends PureRenderComponent {
 
     createTodo() {
-        var values = this.refs.createTodoForm.getValues();
-        values.description ? doCreate.call(this) : this.setState({error: 'Description cannot be blank'});
+        this.refs.createTodoForm.isValid() && doCreate.call(this);
 
         function doCreate() {
-            TodoService.addTodo(values);
+            TodoService.addTodo(this.refs.createTodoForm.getValues());
             this.setState({error: undefined});
             this.refs.createTodoForm.clear();
         }
@@ -21,11 +19,8 @@ module.exports = class CreateTodoForm extends Component {
         return (
             <div>
                 <Form ref="createTodoForm" rsKey="create-todo-form">
-                    <Form.InputText name="description" label="Todo description"/>
+                    <Form.InputText name="description" label="Todo description" required="Description cannot be blank"/>
                 </Form>
-                <ShowHide show={this.state.error}>
-                    <Alert>{this.state.error}</Alert>
-                </ShowHide>
                 <Form.BtnPrimary size="sm" onClick={this.createTodo.bind(this)}>Create todo</Form.BtnPrimary>
             </div>
         )

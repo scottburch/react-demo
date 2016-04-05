@@ -9,11 +9,11 @@ var Demo = class Demo extends Component {
     render() {
         return (
             <Grid>
-                <CreateTodoForm/>
                 <hr/>
                 <TodoList/>
                 <TodoCount />
                 <hr/>
+                <CreateTodoForm/>
                 <State />
             </Grid>
         )

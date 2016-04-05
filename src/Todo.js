@@ -1,4 +1,3 @@
-var PureRenderComponent = require('PureRenderComponent');
 var TodoService = require('./TodoService');
 var FadeIn = require('./FadeIn');
 var Form = require('patlib/group/InputForm');

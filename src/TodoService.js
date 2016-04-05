@@ -4,10 +4,7 @@ var TODO_LOAD_DELAY = 2000;
 RS.set('todos', []);
 
 module.exports =  {
-    getTodos() {
-        loadInitialTodos();
-        return RS.get('todos');
-    },
+    getTodos: loadInitialTodos,
 
     addTodo(data) {
         var idx = RS.get('todos').length;

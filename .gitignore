@@ -3,3 +3,5 @@
 node_modules
 test/build
 specRunner.html
+/demo.js
+test/tests.js

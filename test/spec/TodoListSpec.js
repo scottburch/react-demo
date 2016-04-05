@@ -16,15 +16,14 @@ describe('TodoList Tests', () => {
 
     it('should show the proper number of todos', function() {
         RS.set('todos', [{id: 2, description: 'do that'}]);
-        expect(this.node.find('todoProps').size()).toBe(1);
+        expect(this.node.find('todoMock').size()).toBe(1);
 
         RS.set('todos', RS.get('todos').concat([{id: 3, description: 'do something else'}]));
-        expect(this.node.find('todoProps').size()).toBe(2);
+        expect(this.node.find('todoMock').size()).toBe(2);
 
-        var props = this.node.find('todoProps').map((i,n) => JSON.parse($j(n).html()));
-        expect(props[0].description).toBe('do that');
-        expect(props[1].description).toBe('do something else');
+        expect(this.node.find('todoMock:contains(todos.0)').size()).toBe(1);
+        expect(this.node.find('todoMock:contains(todos.1)').size()).toBe(1);
     });
 
-    var TodoMock = props => <todoProps>{JSON.stringify(RS.get(props.rsKey))}</todoProps>
+    var TodoMock = ({rsKey}) => <todoMock>${rsKey}</todoMock>
 });

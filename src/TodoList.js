@@ -28,4 +28,4 @@ module.exports = class TodoList extends Component {
 
 };
 
-var Loading = props => props.isLoading ? <h1>I'm loading...</h1> : <div>{props.children}</div>;
+var Loading = ({isLoading, children}) => isLoading ? <h1>I'm loading...</h1> : <div>{children}</div>;

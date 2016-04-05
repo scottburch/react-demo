@@ -5,7 +5,7 @@ RS.set('todos', []);
 
 module.exports =  {
     getTodos() {
-        initialTodos();
+        loadInitialTodos();
         return RS.get('todos');
     },
 
@@ -19,7 +19,17 @@ module.exports =  {
     }
 };
 
-var initialTodos = () => setTimeout(() => _.size(RS.get('todos')) || RS.set('todos', initialTodosData), TODO_LOAD_DELAY);
+function loadInitialTodos() {
+    var todos = [
+        {id:1, description: 'Do something'},
+        {id:2, description: 'Do something else'}
+    ];
 
 
-var initialTodosData = [{id:1, description: 'Do something'}, {id:2, description: 'Do something else'}];
+    setTimeout(R.pipe(
+        R.partial(RS.get, ['todos']),
+        R.unless(R.length, R.partial(RS.set, ['todos', todos]))
+    ), TODO_LOAD_DELAY);
+
+}
+

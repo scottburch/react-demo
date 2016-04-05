@@ -46,6 +46,7 @@ module.exports = {
         new webpack.ProvidePlugin({
             $j: "jquery",
             _: "lodash",
+            R: 'ramda',
             Col: 'react-bootstrap/lib/Col',
             Row: 'react-bootstrap/lib/Row',
             Grid: 'react-bootstrap/lib/Grid',

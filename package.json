@@ -17,6 +17,7 @@
     "react": "~0.14.0",
     "react-bootstrap": "^0.28.1",
     "react-dom": "~0.14.0",
+    "react-router": "^2.0.1",
     "reactive-store": "~0.2.6",
     "source-map-support": "~0.4.0",
     "url-loader": "^0.5.7",

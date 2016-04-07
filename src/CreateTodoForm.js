@@ -2,6 +2,7 @@ var TodoService = require('./TodoService');
 var Form = require('patlib/group/InputForm');
 var Alert = require('patlib/core/Alert');
 var ShowHide = require('patlib/group/ShowHide');
+var App = require('./App');
 
 module.exports = class CreateTodoForm extends PureRenderComponent {
 
@@ -12,7 +13,7 @@ module.exports = class CreateTodoForm extends PureRenderComponent {
         function doCreate() {
             TodoService.addTodo(form.getValues());
             form.clear();
-            this.props.history.push('/');
+            App.goto('/');
         }
     }
 

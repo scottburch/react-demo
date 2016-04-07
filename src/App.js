@@ -2,7 +2,7 @@ require('style/bootstrap-3.3.5-dist/css/bootstrap.css');
 var Link = require('react-router').Link;
 
 module.exports = ({children}) => (
-    <div>
+    <Grid style={{paddingTop: 10}}>
         <strong>SCOTT'S TODO APP</strong>
         <div className="pull-right">
             <HeaderLink to="/">Home</HeaderLink>
@@ -11,13 +11,13 @@ module.exports = ({children}) => (
         </div>
         <hr/>
         {children}
-    </div>
+    </Grid>
 );
 
 
 
 var HeaderLink = ({to, children}) => (
-    <span style={{marginRight: 10}}>
-        <Link to={to}>{children}</Link>
+    <span style={{marginRight: 10, color: '#ccc'}}>
+        <Link to={to} activeStyle={{color: 'red'}}>{children}</Link>
     </span>
 );

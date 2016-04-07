@@ -3,9 +3,9 @@ var TodoCount = require('./TodoCount');
 
 
 module.exports = () => (
-    <Grid>
+    <Row>
         <TodoList/>
         <TodoCount />
-    </Grid>
+    </Row>
 );
     

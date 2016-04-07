@@ -5,9 +5,11 @@ module.exports = ({children}) => (
     <div>
         <strong>SCOTT'S TODO APP</strong>
         <div className="pull-right">
-            <HeaderLink to="/state">State</HeaderLink>
             <HeaderLink to="/">Home</HeaderLink>
+            <HeaderLink to="/state">State</HeaderLink>
+            <HeaderLink to="/create">Create Todo</HeaderLink>
         </div>
+        <hr/>
         {children}
     </div>
 );
@@ -15,7 +17,7 @@ module.exports = ({children}) => (
 
 
 var HeaderLink = ({to, children}) => (
-    <span style={{marginLeft: 10}}>
+    <span style={{marginRight: 10}}>
         <Link to={to}>{children}</Link>
     </span>
 );

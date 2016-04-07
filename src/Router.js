@@ -1,12 +1,13 @@
 var Rtr = require('react-router');
-var browserHistory = require('react-router/lib/browserHistory');
 
 module.exports = class Router extends Component {
     render() {
         return (
-            <Rtr.Router history={browserHistory}>
+            <Rtr.Router history={require('react-router/lib/browserHistory')}>
                 <Rtr.Route component={require('./App')}>
-                    <Rtr.Route path="/" component={require('./Home')}/>
+                    <Rtr.Route path="/" component={require('./Home')} />
+                    <Rtr.Route path="state" component={require('./State')} />
+                    <Rtr.Route path="create" component={require('./CreateTodoForm')} />
                 </Rtr.Route>
             </Rtr.Router>
         );

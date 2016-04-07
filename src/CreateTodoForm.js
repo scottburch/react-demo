@@ -7,11 +7,12 @@ module.exports = class CreateTodoForm extends PureRenderComponent {
 
     createTodo() {
         var form = this.refs.createTodoForm;
-        form.isValid() && doCreate();
+        form.isValid() && doCreate.call(this);
 
         function doCreate() {
             TodoService.addTodo(form.getValues());
             form.clear();
+            this.props.history.push('/');
         }
     }
 

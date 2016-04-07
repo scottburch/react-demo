@@ -29,7 +29,7 @@
     "compile": "watchify -t [reactify --es6 --target es5] -t strictify src/demo.js -o demo.js --debug -v",
     "compile-tests": "cd test;./test.sh;cd ..",
     "test-headless": "grunt headless",
-    "start": "ws"
+    "start": "ws --spa index.html"
   },
   "repository": {
     "type": "git",

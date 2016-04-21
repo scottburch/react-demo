@@ -16,7 +16,7 @@ module.exports = ({children, history}) => {
     </Grid>
 )};
 
-module.exports.goto = (path) => module.exports.history.push('/');
+module.exports.goto = (path) => module.exports.history.push(path);
 
 var HeaderLink = ({to, children}) => (
     <span style={{marginRight: 10, color: '#ccc'}}>

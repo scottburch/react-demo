@@ -6,13 +6,9 @@ var App = require('./App');
 
 module.exports = class CreateTodoForm extends PureRenderComponent {
 
-    componentWillMount() {
-        RS.set('formComplete', false);
-        this.registerStoreKey('formComplete');
-    }
-
-    setFormComplete() {
-        RS.set('formComplete', true);
+    componentDidMount() {
+        this.autorun(() =>
+            this.setState({formComplete: _.every(this.refs.createTodoForm.getValues())}));
     }
 
     createTodo() {
@@ -30,7 +26,7 @@ module.exports = class CreateTodoForm extends PureRenderComponent {
         return (
             <div>
                 <Form ref="createTodoForm" rsKey="create-todo-form">
-                    <Form.InputText name="description" label="Todo description" required="Description cannot be blank" onChange={this.setFormComplete.bind(this)}/>
+                    <Form.InputText defaultValue="" name="description" label="Todo description" required="Description cannot be blank" />
                 </Form>
                 <Form.BtnPrimary disabled={!this.state.formComplete} onClick={this.createTodo.bind(this)}>Create todo</Form.BtnPrimary>
             </div>

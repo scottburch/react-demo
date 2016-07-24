@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edbd8b9b-54d9-46cd-a4c3-e02d049f2f5b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo.ipr" afterPath="$PROJECT_DIR$/demo.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo.iws" afterPath="$PROJECT_DIR$/demo.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CreateTodoForm.js" afterPath="$PROJECT_DIR$/src/CreateTodoForm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Todo.js" afterPath="$PROJECT_DIR$/src/Todo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TodoCount.js" afterPath="$PROJECT_DIR$/src/TodoCount.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TodoList.js" afterPath="$PROJECT_DIR$/src/TodoList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,28 +34,38 @@
       <file leaf-file-name="TodoList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TodoList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="165">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Router.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateTodoForm.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CreateTodoForm.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CreateTodoForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="21" column="90" selection-start-line="21" selection-start-column="90" selection-end-line="21" selection-end-column="90" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Todo.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Todo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TodoCount.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TodoCount.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -58,106 +74,18 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="150">
               <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InputField.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/patlib/components/group/InputField.js">
+      <file leaf-file-name="boot.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/patlib/test/boot.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-              <folding>
-                <marker date="1469156527000" expanded="true" signature="328:1051" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="348:1049" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="1096:1735" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="1331:1733" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="1366:1576" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="1783:1969" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="1991:5791" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="2360:4054" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="2860:4037" ph="&lt;xml/&gt;" />
-                <marker date="1469156527000" expanded="true" signature="2953:3595" ph="&lt;xml/&gt;" />
-                <marker date="1469156527000" expanded="true" signature="3003:3567" ph="&lt;xml/&gt;" />
-                <marker date="1469156527000" expanded="true" signature="3104:3285" ph="&lt;xml/&gt;" />
-                <marker date="1469156527000" expanded="true" signature="3310:3538" ph="&lt;xml/&gt;" />
-                <marker date="1469156527000" expanded="true" signature="3371:3502" ph="&lt;xml/&gt;" />
-                <marker date="1469156527000" expanded="true" signature="3670:3811" ph="&lt;xml/&gt;" />
-                <marker date="1469156527000" expanded="true" signature="3828:4018" ph="&lt;xml/&gt;" />
-                <marker date="1469156527000" expanded="true" signature="4089:5564" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="4207:4277" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="4370:5547" ph="&lt;xml/&gt;" />
-                <marker date="1469156527000" expanded="true" signature="4463:5105" ph="&lt;xml/&gt;" />
-                <marker date="1469156527000" expanded="true" signature="4513:5077" ph="&lt;xml/&gt;" />
-                <marker date="1469156527000" expanded="true" signature="4614:4795" ph="&lt;xml/&gt;" />
-                <marker date="1469156527000" expanded="true" signature="4820:5048" ph="&lt;xml/&gt;" />
-                <marker date="1469156527000" expanded="true" signature="4881:5012" ph="&lt;xml/&gt;" />
-                <marker date="1469156527000" expanded="true" signature="5180:5321" ph="&lt;xml/&gt;" />
-                <marker date="1469156527000" expanded="true" signature="5338:5528" ph="&lt;xml/&gt;" />
-                <marker date="1469156527000" expanded="true" signature="5828:6321" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="6055:6319" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="6461:7035" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="6796:7033" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="7064:8279" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="7436:7570" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="7692:7773" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="7817:7928" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="7972:8083" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="8128:8236" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="8323:8754" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="8451:8602" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="8638:8751" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InputForm.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/patlib/components/group/InputForm.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-              <folding>
-                <marker date="1469156527000" expanded="true" signature="372:3023" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="399:585" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="613:703" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="730:784" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="880:997" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="1027:1168" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="1182:1335" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="1629:1697" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="1715:1775" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="1803:1878" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="1909:1987" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="2011:2079" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="2099:2224" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="2252:2327" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="2348:2416" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="2437:2507" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="2534:2607" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="2627:2693" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="2708:3021" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="2739:2868" ph="&lt;xml/&gt;" />
-                <marker date="1469156527000" expanded="true" signature="2911:3015" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="3063:3407" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="3088:3403" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="3773:3846" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="3871:3929" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="4037:4096" ph="{...}" />
-                <marker date="1469156527000" expanded="true" signature="4211:4318" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TodoService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TodoService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -166,7 +94,7 @@
       <file leaf-file-name="State.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/State.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="340">
               <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
               <folding />
             </state>
@@ -176,18 +104,18 @@
       <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="210">
+              <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/demo.js">
+      <file leaf-file-name="FadeIn.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FadeIn.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="39" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="39" />
+            <state relative-caret-position="30">
+              <caret line="2" column="66" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -232,7 +160,6 @@
         <option value="$PROJECT_DIR$/../npm-packages/patlib/components/group/InputForm.js" />
         <option value="$PROJECT_DIR$/../npm-packages/patlib/test/specs/components/group/InputFormSpec.js" />
         <option value="$PROJECT_DIR$/test/SpecRunner.html" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/test/webpack.config.js" />
         <option value="$PROJECT_DIR$/test/spec/TodoSpec.js" />
         <option value="$PROJECT_DIR$/test/package.json" />
@@ -240,13 +167,16 @@
         <option value="$PROJECT_DIR$/src/demo.js" />
         <option value="$PROJECT_DIR$/src/FadeIn.js" />
         <option value="$PROJECT_DIR$/notes.txt" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/Todo.js" />
-        <option value="$PROJECT_DIR$/src/TodoCount.js" />
         <option value="$PROJECT_DIR$/src/TodoService.js" />
-        <option value="$PROJECT_DIR$/src/TodoList.js" />
         <option value="$PROJECT_DIR$/node_modules/patlib/components/group/InputField.js" />
+        <option value="$PROJECT_DIR$/node_modules/patlib/components/Component.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/node_modules/patlib/test/boot.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/TodoList.js" />
         <option value="$PROJECT_DIR$/src/CreateTodoForm.js" />
+        <option value="$PROJECT_DIR$/src/TodoCount.js" />
+        <option value="$PROJECT_DIR$/src/Todo.js" />
       </list>
     </option>
   </component>
@@ -272,7 +202,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1265" />
-    <option name="height" value="696" />
+    <option name="height" value="714" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -343,7 +273,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -372,80 +301,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="patlib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="patlib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="patlib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="group" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -464,20 +328,20 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/patlib" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$/test/spec" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.demo.html">
@@ -952,6 +816,8 @@
       <workItem from="1465933849335" duration="104000" />
       <workItem from="1469045969391" duration="3871000" />
       <workItem from="1469151553021" duration="4867000" />
+      <workItem from="1469265611310" duration="182000" />
+      <workItem from="1469265821439" duration="4233000" />
     </task>
     <task id="LOCAL-00001" summary="clear input field for new todo">
       <created>1436856351744</created>
@@ -1167,10 +1033,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151144000" />
+    <option name="totallyTimeSpent" value="156787000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1265" height="696" extended-state="0" />
+    <frame x="0" y="23" width="1265" height="714" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1182,10 +1048,10 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30622837" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29865772" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23630416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30744073" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1269,7 +1135,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1278,35 +1144,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Todo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TodoCount.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FadeIn.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1314,7 +1155,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1330,7 +1170,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1339,7 +1178,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1446,13 +1284,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/patlib/components/core/Btn.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/patlib/components/core/Btn.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/patlib/components/core/InputCheckbox.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1497,10 +1329,109 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notes.txt" />
-    <entry file="file://$PROJECT_DIR$/src/TodoCount.js">
+    <entry file="file://$PROJECT_DIR$/demo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TodoService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/patlib/components/group/InputForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/patlib/components/Component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/patlib/test/component.tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/patlib/components/group/InputField.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" selection-start-line="8" selection-start-column="0" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/patlib/test/boot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TodoList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CreateTodoForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="90" selection-start-line="21" selection-start-column="90" selection-end-line="21" selection-end-column="90" />
           <folding />
         </state>
       </provider>
@@ -1513,173 +1444,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Todo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="67" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="39" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/State.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="340">
           <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TodoService.js">
+    <entry file="file://$PROJECT_DIR$/src/TodoCount.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        <state relative-caret-position="30">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TodoList.js">
+    <entry file="file://$PROJECT_DIR$/src/Todo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/patlib/components/group/InputForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-          <folding>
-            <marker date="1469156527000" expanded="true" signature="372:3023" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="399:585" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="613:703" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="730:784" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="880:997" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="1027:1168" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="1182:1335" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="1629:1697" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="1715:1775" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="1803:1878" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="1909:1987" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="2011:2079" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="2099:2224" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="2252:2327" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="2348:2416" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="2437:2507" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="2534:2607" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="2627:2693" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="2708:3021" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="2739:2868" ph="&lt;xml/&gt;" />
-            <marker date="1469156527000" expanded="true" signature="2911:3015" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="3063:3407" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="3088:3403" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="3773:3846" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="3871:3929" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="4037:4096" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="4211:4318" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/patlib/components/group/InputField.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-          <folding>
-            <marker date="1469156527000" expanded="true" signature="328:1051" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="348:1049" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="1096:1735" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="1331:1733" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="1366:1576" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="1783:1969" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="1991:5791" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="2360:4054" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="2860:4037" ph="&lt;xml/&gt;" />
-            <marker date="1469156527000" expanded="true" signature="2953:3595" ph="&lt;xml/&gt;" />
-            <marker date="1469156527000" expanded="true" signature="3003:3567" ph="&lt;xml/&gt;" />
-            <marker date="1469156527000" expanded="true" signature="3104:3285" ph="&lt;xml/&gt;" />
-            <marker date="1469156527000" expanded="true" signature="3310:3538" ph="&lt;xml/&gt;" />
-            <marker date="1469156527000" expanded="true" signature="3371:3502" ph="&lt;xml/&gt;" />
-            <marker date="1469156527000" expanded="true" signature="3670:3811" ph="&lt;xml/&gt;" />
-            <marker date="1469156527000" expanded="true" signature="3828:4018" ph="&lt;xml/&gt;" />
-            <marker date="1469156527000" expanded="true" signature="4089:5564" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="4207:4277" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="4370:5547" ph="&lt;xml/&gt;" />
-            <marker date="1469156527000" expanded="true" signature="4463:5105" ph="&lt;xml/&gt;" />
-            <marker date="1469156527000" expanded="true" signature="4513:5077" ph="&lt;xml/&gt;" />
-            <marker date="1469156527000" expanded="true" signature="4614:4795" ph="&lt;xml/&gt;" />
-            <marker date="1469156527000" expanded="true" signature="4820:5048" ph="&lt;xml/&gt;" />
-            <marker date="1469156527000" expanded="true" signature="4881:5012" ph="&lt;xml/&gt;" />
-            <marker date="1469156527000" expanded="true" signature="5180:5321" ph="&lt;xml/&gt;" />
-            <marker date="1469156527000" expanded="true" signature="5338:5528" ph="&lt;xml/&gt;" />
-            <marker date="1469156527000" expanded="true" signature="5828:6321" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="6055:6319" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="6461:7035" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="6796:7033" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="7064:8279" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="7436:7570" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="7692:7773" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="7817:7928" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="7972:8083" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="8128:8236" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="8323:8754" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="8451:8602" ph="{...}" />
-            <marker date="1469156527000" expanded="true" signature="8638:8751" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CreateTodoForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -1737,7 +1521,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>npm-packages</last-edited>
+          <last-edited>patlib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

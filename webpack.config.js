@@ -52,6 +52,7 @@ module.exports = {
             Grid: 'react-bootstrap/lib/Grid',
             PureRenderComponent: 'patlib/components/PureRenderComponent',
             Component: 'patlib/components/Component',
+            AutoComponent: 'patlib/components/AutoComponent',
             M: 'simple-monads'
         })
     ]

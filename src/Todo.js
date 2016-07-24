@@ -3,18 +3,14 @@ var FadeIn = require('./FadeIn');
 var Form = require('patlib/group/InputForm');
 require('./todo.less');
 
-module.exports = class Todo extends PureRenderComponent {
+module.exports = class Todo extends AutoComponent.Class {
     deleteTodo() {
-        M.Maybe.of(this.state.todo.id).map(TodoService.deleteTodo);
+        M.Maybe.of(RS.get(this.props.rsKey).id).map(TodoService.deleteTodo);
     }
-
-    componentWillMount() {
-        this.registerStoreKey(this.props.rsKey, 'todo');
-    }
-
 
     render() {
-        var todo = this.state.todo;
+        var todo = RS.get(this.props.rsKey);
+
         return (
             <Row className={`todo ${todo.complete ? 'todo-complete' : ''} ${todo.id ? '' : 'todo-saving'}`}>
                 <Col xs={12}>

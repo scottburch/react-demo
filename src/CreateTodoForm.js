@@ -4,12 +4,7 @@ var Alert = require('patlib/core/Alert');
 var ShowHide = require('patlib/group/ShowHide');
 var App = require('./App');
 
-module.exports = class CreateTodoForm extends PureRenderComponent {
-
-    componentDidMount() {
-        this.autorun(() =>
-            this.setState({formComplete: _.every(this.refs.createTodoForm.getValues())}));
-    }
+module.exports = class CreateTodoForm extends AutoComponent.Class {
 
     createTodo() {
         var form = this.refs.createTodoForm;
@@ -22,13 +17,21 @@ module.exports = class CreateTodoForm extends PureRenderComponent {
         }
     }
 
+    componentDidMount() {
+        this.autorun(() =>
+            this.setState({formIsComplete: _.every(this.refs.createTodoForm.getValues())})
+        );
+    }
+
     render() {
         return (
             <div>
                 <Form ref="createTodoForm" rsKey="create-todo-form">
-                    <Form.InputText defaultValue="" name="description" label="Todo description" required="Description cannot be blank" />
+                    <Form.InputText defaultValue="" name="description" label="Todo description"
+                                    required="Description cannot be blank"/>
                 </Form>
-                <Form.BtnPrimary disabled={!this.state.formComplete} onClick={this.createTodo.bind(this)}>Create todo</Form.BtnPrimary>
+                <Form.BtnPrimary disabled={!this.state.formIsComplete} onClick={this.createTodo.bind(this)}>Create
+                    todo</Form.BtnPrimary>
             </div>
         )
     }

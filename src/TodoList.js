@@ -2,19 +2,14 @@ var Component = require('Component');
 var Todo = require('./Todo');
 var TodoService = require('./TodoService');
 
-module.exports = class TodoList extends Component {
+module.exports = class TodoList extends AutoComponent.Class {
 
     componentWillMount() {
-        this.registerStoreKey('todos');
         TodoService.getTodos();
     }
 
-    shouldComponentUpdate(nextProps, nextState) {
-        return _.size(this.state.todos) !== _.size(nextState.todos);
-    }
-
     render() {
-        var todos = this.state.todos || [];
+        var todos = RS.get('todos') || [];
         return (
             <div>
                 <h2>Todos</h2>
